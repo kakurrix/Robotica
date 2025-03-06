@@ -1,0 +1,4 @@
+[console_scripts]
+ejemplo_pub = my_package.pub:main
+ejemplo_sub = my_package.pub:main
+

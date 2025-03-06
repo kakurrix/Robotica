@@ -1,0 +1,5 @@
+[console_scripts]
+nodo1 = ros2_nodos.nodo1:main
+nodo2 = ros2_nodos.nodo2:main
+nodo3 = ros2_nodos.nodo3:main
+

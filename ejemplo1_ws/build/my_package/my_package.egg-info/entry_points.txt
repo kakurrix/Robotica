@@ -1,0 +1,6 @@
+[console_scripts]
+ejemplo_int = my_package.int:main
+ejemplo_pub = my_package.pub:main
+ejemplo_sub = my_package.sub:main
+pub_custom_msg = my_package.pub_custom_msg:main
+

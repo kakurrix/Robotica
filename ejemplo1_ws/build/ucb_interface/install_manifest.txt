@@ -1,0 +1,15 @@
+/home/kakurrix/Documents/Robotica/ejemplo1_ws/install/ucb_interface/share/ament_index/resource_index/package_run_dependencies/ucb_interface
+/home/kakurrix/Documents/Robotica/ejemplo1_ws/install/ucb_interface/share/ament_index/resource_index/parent_prefix_path/ucb_interface
+/home/kakurrix/Documents/Robotica/ejemplo1_ws/install/ucb_interface/share/ucb_interface/environment/ament_prefix_path.sh
+/home/kakurrix/Documents/Robotica/ejemplo1_ws/install/ucb_interface/share/ucb_interface/environment/ament_prefix_path.dsv
+/home/kakurrix/Documents/Robotica/ejemplo1_ws/install/ucb_interface/share/ucb_interface/environment/path.sh
+/home/kakurrix/Documents/Robotica/ejemplo1_ws/install/ucb_interface/share/ucb_interface/environment/path.dsv
+/home/kakurrix/Documents/Robotica/ejemplo1_ws/install/ucb_interface/share/ucb_interface/local_setup.bash
+/home/kakurrix/Documents/Robotica/ejemplo1_ws/install/ucb_interface/share/ucb_interface/local_setup.sh
+/home/kakurrix/Documents/Robotica/ejemplo1_ws/install/ucb_interface/share/ucb_interface/local_setup.zsh
+/home/kakurrix/Documents/Robotica/ejemplo1_ws/install/ucb_interface/share/ucb_interface/local_setup.dsv
+/home/kakurrix/Documents/Robotica/ejemplo1_ws/install/ucb_interface/share/ucb_interface/package.dsv
+/home/kakurrix/Documents/Robotica/ejemplo1_ws/install/ucb_interface/share/ament_index/resource_index/packages/ucb_interface
+/home/kakurrix/Documents/Robotica/ejemplo1_ws/install/ucb_interface/share/ucb_interface/cmake/ucb_interfaceConfig.cmake
+/home/kakurrix/Documents/Robotica/ejemplo1_ws/install/ucb_interface/share/ucb_interface/cmake/ucb_interfaceConfig-version.cmake
+/home/kakurrix/Documents/Robotica/ejemplo1_ws/install/ucb_interface/share/ucb_interface/package.xml

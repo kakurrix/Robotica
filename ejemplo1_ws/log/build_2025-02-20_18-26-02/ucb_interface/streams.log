@@ -1,0 +1,20 @@
+[0.009s] Invoking command in '/home/kakurrix/Documents/Robotica/ejemplo1_ws/build/ucb_interface': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/kakurrix/Documents/Robotica/ejemplo1_ws/install/my_package:/opt/ros/humble /usr/bin/cmake --build /home/kakurrix/Documents/Robotica/ejemplo1_ws/build/ucb_interface -- -j8 -l8
+[0.037s] Invoked command in '/home/kakurrix/Documents/Robotica/ejemplo1_ws/build/ucb_interface' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/kakurrix/Documents/Robotica/ejemplo1_ws/install/my_package:/opt/ros/humble /usr/bin/cmake --build /home/kakurrix/Documents/Robotica/ejemplo1_ws/build/ucb_interface -- -j8 -l8
+[0.045s] Invoking command in '/home/kakurrix/Documents/Robotica/ejemplo1_ws/build/ucb_interface': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/kakurrix/Documents/Robotica/ejemplo1_ws/install/my_package:/opt/ros/humble /usr/bin/cmake --install /home/kakurrix/Documents/Robotica/ejemplo1_ws/build/ucb_interface
+[0.051s] -- Install configuration: ""
+[0.051s] -- Up-to-date: /home/kakurrix/Documents/Robotica/ejemplo1_ws/install/ucb_interface/share/ament_index/resource_index/package_run_dependencies/ucb_interface
+[0.051s] -- Up-to-date: /home/kakurrix/Documents/Robotica/ejemplo1_ws/install/ucb_interface/share/ament_index/resource_index/parent_prefix_path/ucb_interface
+[0.051s] -- Up-to-date: /home/kakurrix/Documents/Robotica/ejemplo1_ws/install/ucb_interface/share/ucb_interface/environment/ament_prefix_path.sh
+[0.051s] -- Up-to-date: /home/kakurrix/Documents/Robotica/ejemplo1_ws/install/ucb_interface/share/ucb_interface/environment/ament_prefix_path.dsv
+[0.052s] -- Up-to-date: /home/kakurrix/Documents/Robotica/ejemplo1_ws/install/ucb_interface/share/ucb_interface/environment/path.sh
+[0.052s] -- Up-to-date: /home/kakurrix/Documents/Robotica/ejemplo1_ws/install/ucb_interface/share/ucb_interface/environment/path.dsv
+[0.052s] -- Up-to-date: /home/kakurrix/Documents/Robotica/ejemplo1_ws/install/ucb_interface/share/ucb_interface/local_setup.bash
+[0.052s] -- Up-to-date: /home/kakurrix/Documents/Robotica/ejemplo1_ws/install/ucb_interface/share/ucb_interface/local_setup.sh
+[0.052s] -- Up-to-date: /home/kakurrix/Documents/Robotica/ejemplo1_ws/install/ucb_interface/share/ucb_interface/local_setup.zsh
+[0.053s] -- Up-to-date: /home/kakurrix/Documents/Robotica/ejemplo1_ws/install/ucb_interface/share/ucb_interface/local_setup.dsv
+[0.053s] -- Installing: /home/kakurrix/Documents/Robotica/ejemplo1_ws/install/ucb_interface/share/ucb_interface/package.dsv
+[0.053s] -- Up-to-date: /home/kakurrix/Documents/Robotica/ejemplo1_ws/install/ucb_interface/share/ament_index/resource_index/packages/ucb_interface
+[0.053s] -- Up-to-date: /home/kakurrix/Documents/Robotica/ejemplo1_ws/install/ucb_interface/share/ucb_interface/cmake/ucb_interfaceConfig.cmake
+[0.053s] -- Up-to-date: /home/kakurrix/Documents/Robotica/ejemplo1_ws/install/ucb_interface/share/ucb_interface/cmake/ucb_interfaceConfig-version.cmake
+[0.053s] -- Up-to-date: /home/kakurrix/Documents/Robotica/ejemplo1_ws/install/ucb_interface/share/ucb_interface/package.xml
+[0.053s] Invoked command in '/home/kakurrix/Documents/Robotica/ejemplo1_ws/build/ucb_interface' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/kakurrix/Documents/Robotica/ejemplo1_ws/install/my_package:/opt/ros/humble /usr/bin/cmake --install /home/kakurrix/Documents/Robotica/ejemplo1_ws/build/ucb_interface

@@ -1,0 +1,9 @@
+/home/kakurrix/Documents/Robotica/ejemplo1_ws/build/ucb_interface/CMakeFiles/uninstall.dir
+/home/kakurrix/Documents/Robotica/ejemplo1_ws/build/ucb_interface/CMakeFiles/ucb_interface_uninstall.dir
+/home/kakurrix/Documents/Robotica/ejemplo1_ws/build/ucb_interface/CMakeFiles/test.dir
+/home/kakurrix/Documents/Robotica/ejemplo1_ws/build/ucb_interface/CMakeFiles/edit_cache.dir
+/home/kakurrix/Documents/Robotica/ejemplo1_ws/build/ucb_interface/CMakeFiles/rebuild_cache.dir
+/home/kakurrix/Documents/Robotica/ejemplo1_ws/build/ucb_interface/CMakeFiles/list_install_components.dir
+/home/kakurrix/Documents/Robotica/ejemplo1_ws/build/ucb_interface/CMakeFiles/install.dir
+/home/kakurrix/Documents/Robotica/ejemplo1_ws/build/ucb_interface/CMakeFiles/install/local.dir
+/home/kakurrix/Documents/Robotica/ejemplo1_ws/build/ucb_interface/CMakeFiles/install/strip.dir

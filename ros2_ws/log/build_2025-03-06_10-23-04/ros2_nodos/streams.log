@@ -1,0 +1,39 @@
+[0.587s] Invoking command in '/home/kakurrix/Documents/Robotica/ros2_ws/src/ros2_nodos': PYTHONPATH=/home/kakurrix/Documents/Robotica/ros2_ws/build/ros2_nodos/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/kakurrix/Documents/Robotica/ros2_ws/install/ros2_nodos/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/ros2_nodos build --build-base /home/kakurrix/Documents/Robotica/ros2_ws/build/ros2_nodos/build install --record /home/kakurrix/Documents/Robotica/ros2_ws/build/ros2_nodos/install.log --single-version-externally-managed
+[0.824s] running egg_info
+[0.825s] creating ../../build/ros2_nodos/ros2_nodos.egg-info
+[0.825s] writing ../../build/ros2_nodos/ros2_nodos.egg-info/PKG-INFO
+[0.825s] writing dependency_links to ../../build/ros2_nodos/ros2_nodos.egg-info/dependency_links.txt
+[0.825s] writing entry points to ../../build/ros2_nodos/ros2_nodos.egg-info/entry_points.txt
+[0.825s] writing requirements to ../../build/ros2_nodos/ros2_nodos.egg-info/requires.txt
+[0.825s] writing top-level names to ../../build/ros2_nodos/ros2_nodos.egg-info/top_level.txt
+[0.825s] writing manifest file '../../build/ros2_nodos/ros2_nodos.egg-info/SOURCES.txt'
+[0.827s] reading manifest file '../../build/ros2_nodos/ros2_nodos.egg-info/SOURCES.txt'
+[0.828s] writing manifest file '../../build/ros2_nodos/ros2_nodos.egg-info/SOURCES.txt'
+[0.828s] running build
+[0.828s] running build_py
+[0.828s] creating /home/kakurrix/Documents/Robotica/ros2_ws/build/ros2_nodos/build
+[0.828s] creating /home/kakurrix/Documents/Robotica/ros2_ws/build/ros2_nodos/build/lib
+[0.828s] creating /home/kakurrix/Documents/Robotica/ros2_ws/build/ros2_nodos/build/lib/ros2_nodos
+[0.829s] copying ros2_nodos/nodo1.py -> /home/kakurrix/Documents/Robotica/ros2_ws/build/ros2_nodos/build/lib/ros2_nodos
+[0.829s] copying ros2_nodos/nodo3.py -> /home/kakurrix/Documents/Robotica/ros2_ws/build/ros2_nodos/build/lib/ros2_nodos
+[0.829s] copying ros2_nodos/__init__.py -> /home/kakurrix/Documents/Robotica/ros2_ws/build/ros2_nodos/build/lib/ros2_nodos
+[0.829s] copying ros2_nodos/nodo2.py -> /home/kakurrix/Documents/Robotica/ros2_ws/build/ros2_nodos/build/lib/ros2_nodos
+[0.829s] running install
+[0.829s] running install_lib
+[0.830s] creating /home/kakurrix/Documents/Robotica/ros2_ws/install/ros2_nodos/lib/python3.10/site-packages/ros2_nodos
+[0.830s] copying /home/kakurrix/Documents/Robotica/ros2_ws/build/ros2_nodos/build/lib/ros2_nodos/nodo1.py -> /home/kakurrix/Documents/Robotica/ros2_ws/install/ros2_nodos/lib/python3.10/site-packages/ros2_nodos
+[0.830s] copying /home/kakurrix/Documents/Robotica/ros2_ws/build/ros2_nodos/build/lib/ros2_nodos/nodo3.py -> /home/kakurrix/Documents/Robotica/ros2_ws/install/ros2_nodos/lib/python3.10/site-packages/ros2_nodos
+[0.830s] copying /home/kakurrix/Documents/Robotica/ros2_ws/build/ros2_nodos/build/lib/ros2_nodos/__init__.py -> /home/kakurrix/Documents/Robotica/ros2_ws/install/ros2_nodos/lib/python3.10/site-packages/ros2_nodos
+[0.830s] copying /home/kakurrix/Documents/Robotica/ros2_ws/build/ros2_nodos/build/lib/ros2_nodos/nodo2.py -> /home/kakurrix/Documents/Robotica/ros2_ws/install/ros2_nodos/lib/python3.10/site-packages/ros2_nodos
+[0.831s] byte-compiling /home/kakurrix/Documents/Robotica/ros2_ws/install/ros2_nodos/lib/python3.10/site-packages/ros2_nodos/nodo1.py to nodo1.cpython-310.pyc
+[0.831s] byte-compiling /home/kakurrix/Documents/Robotica/ros2_ws/install/ros2_nodos/lib/python3.10/site-packages/ros2_nodos/nodo3.py to nodo3.cpython-310.pyc
+[0.832s] byte-compiling /home/kakurrix/Documents/Robotica/ros2_ws/install/ros2_nodos/lib/python3.10/site-packages/ros2_nodos/__init__.py to __init__.cpython-310.pyc
+[0.832s] byte-compiling /home/kakurrix/Documents/Robotica/ros2_ws/install/ros2_nodos/lib/python3.10/site-packages/ros2_nodos/nodo2.py to nodo2.cpython-310.pyc
+[0.832s] running install_egg_info
+[0.834s] Copying ../../build/ros2_nodos/ros2_nodos.egg-info to /home/kakurrix/Documents/Robotica/ros2_ws/install/ros2_nodos/lib/python3.10/site-packages/ros2_nodos-0.0.0-py3.10.egg-info
+[0.835s] running install_scripts
+[0.855s] Installing nodo1 script to /home/kakurrix/Documents/Robotica/ros2_ws/install/ros2_nodos/lib/ros2_nodos
+[0.855s] Installing nodo2 script to /home/kakurrix/Documents/Robotica/ros2_ws/install/ros2_nodos/lib/ros2_nodos
+[0.855s] Installing nodo3 script to /home/kakurrix/Documents/Robotica/ros2_ws/install/ros2_nodos/lib/ros2_nodos
+[0.856s] writing list of installed files to '/home/kakurrix/Documents/Robotica/ros2_ws/build/ros2_nodos/install.log'
+[0.877s] Invoked command in '/home/kakurrix/Documents/Robotica/ros2_ws/src/ros2_nodos' returned '0': PYTHONPATH=/home/kakurrix/Documents/Robotica/ros2_ws/build/ros2_nodos/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/kakurrix/Documents/Robotica/ros2_ws/install/ros2_nodos/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/ros2_nodos build --build-base /home/kakurrix/Documents/Robotica/ros2_ws/build/ros2_nodos/build install --record /home/kakurrix/Documents/Robotica/ros2_ws/build/ros2_nodos/install.log --single-version-externally-managed
