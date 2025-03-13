@@ -1,0 +1,233 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-90c2eb253446bc5b864e.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17
+					]
+				},
+				{
+					"build" : "mensaje__py",
+					"jsonFile" : "directory-mensaje__py-1ba457b6b5fae0c425c9.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/home/kakurrix/Documents/Robotica/parcial1_ws/build/mensaje/mensaje__py",
+					"targetIndexes" : 
+					[
+						4
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1
+					],
+					"name" : "mensaje",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_build_mensaje_egg::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_build_mensaje_egg-a476f912d35791fb6f2d.json",
+					"name" : "ament_cmake_python_build_mensaje_egg",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_copy_mensaje::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_copy_mensaje-40360cc7c652740d9319.json",
+					"name" : "ament_cmake_python_copy_mensaje",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "mensaje::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-mensaje-f5825a1be790e24eda21.json",
+					"name" : "mensaje",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "mensaje__cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-mensaje__cpp-0328f7c0edfe4cd9ae3f.json",
+					"name" : "mensaje__cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "mensaje__py::@3d1ce9cb8adb1b344425",
+					"jsonFile" : "target-mensaje__py-b19494eb4f61cf50a7b9.json",
+					"name" : "mensaje__py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "mensaje__rosidl_generator_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-mensaje__rosidl_generator_c-2e44b5ff5f72c9257c37.json",
+					"name" : "mensaje__rosidl_generator_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "mensaje__rosidl_generator_py::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-mensaje__rosidl_generator_py-10f595036cc8eb9f794b.json",
+					"name" : "mensaje__rosidl_generator_py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "mensaje__rosidl_typesupport_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-mensaje__rosidl_typesupport_c-419d63a84111acb87273.json",
+					"name" : "mensaje__rosidl_typesupport_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "mensaje__rosidl_typesupport_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-mensaje__rosidl_typesupport_c__pyext-82b13e6f92200aaae8f1.json",
+					"name" : "mensaje__rosidl_typesupport_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "mensaje__rosidl_typesupport_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-mensaje__rosidl_typesupport_cpp-7c46f8e0c77568d0619b.json",
+					"name" : "mensaje__rosidl_typesupport_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "mensaje__rosidl_typesupport_fastrtps_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-mensaje__rosidl_typesupport_fastrtps_c-58a79818b56164837149.json",
+					"name" : "mensaje__rosidl_typesupport_fastrtps_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "mensaje__rosidl_typesupport_fastrtps_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-mensaje__rosidl_typesupport_fastrtps_c__pyext-2845e56d27ff994b597f.json",
+					"name" : "mensaje__rosidl_typesupport_fastrtps_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "mensaje__rosidl_typesupport_fastrtps_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-mensaje__rosidl_typesupport_fastrtps_cpp-4e87875603fcfa39b810.json",
+					"name" : "mensaje__rosidl_typesupport_fastrtps_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "mensaje__rosidl_typesupport_introspection_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-mensaje__rosidl_typesupport_introspection_c-a5590b0a5618ef1eff3b.json",
+					"name" : "mensaje__rosidl_typesupport_introspection_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "mensaje__rosidl_typesupport_introspection_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-mensaje__rosidl_typesupport_introspection_c__pyext-fe9b248fcb21a2bbb715.json",
+					"name" : "mensaje__rosidl_typesupport_introspection_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "mensaje__rosidl_typesupport_introspection_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-mensaje__rosidl_typesupport_introspection_cpp-3400515a266e97026227.json",
+					"name" : "mensaje__rosidl_typesupport_introspection_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "mensaje_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-mensaje_uninstall-7bddac9d53884caa0e08.json",
+					"name" : "mensaje_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-0f94b02447b374649a19.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/kakurrix/Documents/Robotica/parcial1_ws/build/mensaje",
+		"source" : "/home/kakurrix/Documents/Robotica/parcial1_ws/src/mensaje"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

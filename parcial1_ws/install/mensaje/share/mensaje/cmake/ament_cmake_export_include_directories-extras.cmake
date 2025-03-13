@@ -1,0 +1,1 @@
+/home/kakurrix/Documents/Robotica/parcial1_ws/build/mensaje/ament_cmake_export_include_directories/ament_cmake_export_include_directories-extras.cmake

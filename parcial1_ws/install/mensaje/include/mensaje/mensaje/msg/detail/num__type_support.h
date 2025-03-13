@@ -1,0 +1,1 @@
+/home/kakurrix/Documents/Robotica/parcial1_ws/build/mensaje/rosidl_generator_c/mensaje/msg/detail/num__type_support.h

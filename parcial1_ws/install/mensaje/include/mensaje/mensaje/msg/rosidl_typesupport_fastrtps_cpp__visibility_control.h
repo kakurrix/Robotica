@@ -1,0 +1,1 @@
+/home/kakurrix/Documents/Robotica/parcial1_ws/build/mensaje/rosidl_typesupport_fastrtps_cpp/mensaje/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h

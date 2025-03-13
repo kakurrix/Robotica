@@ -1,0 +1,4 @@
+source;share/mensaje/local_setup.bash
+source;share/mensaje/local_setup.dsv
+source;share/mensaje/local_setup.sh
+source;share/mensaje/local_setup.zsh

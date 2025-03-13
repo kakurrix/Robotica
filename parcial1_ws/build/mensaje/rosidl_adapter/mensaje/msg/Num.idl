@@ -1,0 +1,14 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from mensaje/msg/Num.msg
+// generated code does not contain a copyright notice
+
+
+module mensaje {
+  module msg {
+    struct Num {
+      double sensor_value;
+
+      string name;
+    };
+  };
+};

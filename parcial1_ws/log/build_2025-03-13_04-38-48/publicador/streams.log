@@ -1,0 +1,25 @@
+[0.957s] Invoking command in '/home/kakurrix/Documents/Robotica/parcial1_ws/build/publicador': PYTHONPATH=/home/kakurrix/Documents/Robotica/parcial1_ws/build/publicador/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/kakurrix/Documents/Robotica/parcial1_ws/install/publicador/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/kakurrix/Documents/Robotica/parcial1_ws/build/publicador/build --no-deps symlink_data
+[1.198s] running develop
+[1.352s] running egg_info
+[1.352s] creating publicador.egg-info
+[1.352s] writing publicador.egg-info/PKG-INFO
+[1.353s] writing dependency_links to publicador.egg-info/dependency_links.txt
+[1.353s] writing entry points to publicador.egg-info/entry_points.txt
+[1.353s] writing requirements to publicador.egg-info/requires.txt
+[1.353s] writing top-level names to publicador.egg-info/top_level.txt
+[1.353s] writing manifest file 'publicador.egg-info/SOURCES.txt'
+[1.354s] reading manifest file 'publicador.egg-info/SOURCES.txt'
+[1.355s] writing manifest file 'publicador.egg-info/SOURCES.txt'
+[1.357s] running build_ext
+[1.357s] Creating /home/kakurrix/Documents/Robotica/parcial1_ws/install/publicador/lib/python3.10/site-packages/publicador.egg-link (link to .)
+[1.358s] Installing pub_bin script to /home/kakurrix/Documents/Robotica/parcial1_ws/install/publicador/lib/publicador
+[1.358s] Installing sus_bin script to /home/kakurrix/Documents/Robotica/parcial1_ws/install/publicador/lib/publicador
+[1.358s] 
+[1.358s] Installed /home/kakurrix/Documents/Robotica/parcial1_ws/build/publicador
+[1.358s] running symlink_data
+[1.358s] creating /home/kakurrix/Documents/Robotica/parcial1_ws/install/publicador/share/ament_index
+[1.358s] creating /home/kakurrix/Documents/Robotica/parcial1_ws/install/publicador/share/ament_index/resource_index
+[1.358s] creating /home/kakurrix/Documents/Robotica/parcial1_ws/install/publicador/share/ament_index/resource_index/packages
+[1.359s] symbolically linking /home/kakurrix/Documents/Robotica/parcial1_ws/build/publicador/resource/publicador -> /home/kakurrix/Documents/Robotica/parcial1_ws/install/publicador/share/ament_index/resource_index/packages
+[1.359s] symbolically linking /home/kakurrix/Documents/Robotica/parcial1_ws/build/publicador/package.xml -> /home/kakurrix/Documents/Robotica/parcial1_ws/install/publicador/share/publicador
+[1.392s] Invoked command in '/home/kakurrix/Documents/Robotica/parcial1_ws/build/publicador' returned '0': PYTHONPATH=/home/kakurrix/Documents/Robotica/parcial1_ws/build/publicador/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/kakurrix/Documents/Robotica/parcial1_ws/install/publicador/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/kakurrix/Documents/Robotica/parcial1_ws/build/publicador/build --no-deps symlink_data

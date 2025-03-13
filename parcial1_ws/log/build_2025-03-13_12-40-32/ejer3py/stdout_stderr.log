@@ -1,0 +1,29 @@
+running egg_info
+creating ../../build/ejer3py/ejer3py.egg-info
+writing ../../build/ejer3py/ejer3py.egg-info/PKG-INFO
+writing dependency_links to ../../build/ejer3py/ejer3py.egg-info/dependency_links.txt
+writing entry points to ../../build/ejer3py/ejer3py.egg-info/entry_points.txt
+writing requirements to ../../build/ejer3py/ejer3py.egg-info/requires.txt
+writing top-level names to ../../build/ejer3py/ejer3py.egg-info/top_level.txt
+writing manifest file '../../build/ejer3py/ejer3py.egg-info/SOURCES.txt'
+reading manifest file '../../build/ejer3py/ejer3py.egg-info/SOURCES.txt'
+adding license file 'LICENSE'
+writing manifest file '../../build/ejer3py/ejer3py.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/kakurrix/Documents/Robotica/parcial1_ws/build/ejer3py/build
+creating /home/kakurrix/Documents/Robotica/parcial1_ws/build/ejer3py/build/lib
+creating /home/kakurrix/Documents/Robotica/parcial1_ws/build/ejer3py/build/lib/ejer3py
+copying ejer3py/cinematicaserv.py -> /home/kakurrix/Documents/Robotica/parcial1_ws/build/ejer3py/build/lib/ejer3py
+copying ejer3py/__init__.py -> /home/kakurrix/Documents/Robotica/parcial1_ws/build/ejer3py/build/lib/ejer3py
+copying ejer3py/cliente.py -> /home/kakurrix/Documents/Robotica/parcial1_ws/build/ejer3py/build/lib/ejer3py
+running install
+running install_lib
+running install_data
+running install_egg_info
+removing '/home/kakurrix/Documents/Robotica/parcial1_ws/install/ejer3py/lib/python3.10/site-packages/ejer3py-0.0.0-py3.10.egg-info' (and everything under it)
+Copying ../../build/ejer3py/ejer3py.egg-info to /home/kakurrix/Documents/Robotica/parcial1_ws/install/ejer3py/lib/python3.10/site-packages/ejer3py-0.0.0-py3.10.egg-info
+running install_scripts
+Installing cinematicaserv script to /home/kakurrix/Documents/Robotica/parcial1_ws/install/ejer3py/lib/ejer3py
+Installing cliente script to /home/kakurrix/Documents/Robotica/parcial1_ws/install/ejer3py/lib/ejer3py
+writing list of installed files to '/home/kakurrix/Documents/Robotica/parcial1_ws/build/ejer3py/install.log'

@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "mensaje__py",
+		"source" : "/home/kakurrix/Documents/Robotica/parcial1_ws/build/mensaje/mensaje__py"
+	}
+}

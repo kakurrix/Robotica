@@ -1,0 +1,98 @@
+[0.562s] Invoking command in '/home/kakurrix/Documents/Robotica/parcial1_ws/build/mensaje': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/kakurrix/Documents/Robotica/parcial1_ws/build/mensaje -- -j8 -l8
+[0.848s] [  2%] Built target mensaje__cpp
+[0.850s] [ 12%] Built target mensaje__rosidl_generator_c
+[0.850s] [ 12%] Built target ament_cmake_python_copy_mensaje
+[0.850s] [ 43%] Built target mensaje__rosidl_typesupport_introspection_c
+[0.850s] [ 53%] Built target mensaje__rosidl_typesupport_fastrtps_c
+[0.850s] [ 56%] Built target mensaje__rosidl_typesupport_c
+[0.850s] [ 56%] Built target mensaje__rosidl_typesupport_introspection_cpp
+[0.850s] [ 71%] Built target mensaje__rosidl_typesupport_cpp
+[0.850s] [ 74%] Built target mensaje__rosidl_typesupport_fastrtps_cpp
+[0.851s] [ 74%] Built target mensaje
+[0.851s] [ 76%] Built target mensaje__py
+[0.851s] [ 84%] Built target mensaje__rosidl_generator_py
+[0.851s] [ 89%] Built target mensaje__rosidl_typesupport_introspection_c__pyext
+[0.851s] [ 94%] Built target mensaje__rosidl_typesupport_c__pyext
+[0.851s] [100%] Built target mensaje__rosidl_typesupport_fastrtps_c__pyext
+[0.879s] running egg_info
+[0.880s] writing mensaje.egg-info/PKG-INFO
+[0.880s] writing dependency_links to mensaje.egg-info/dependency_links.txt
+[0.880s] writing top-level names to mensaje.egg-info/top_level.txt
+[0.883s] reading manifest file 'mensaje.egg-info/SOURCES.txt'
+[0.884s] writing manifest file 'mensaje.egg-info/SOURCES.txt'
+[0.914s] [100%] Built target ament_cmake_python_build_mensaje_egg
+[0.926s] Invoked command in '/home/kakurrix/Documents/Robotica/parcial1_ws/build/mensaje' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/kakurrix/Documents/Robotica/parcial1_ws/build/mensaje -- -j8 -l8
+[0.936s] Invoking command in '/home/kakurrix/Documents/Robotica/parcial1_ws/build/mensaje': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/kakurrix/Documents/Robotica/parcial1_ws/build/mensaje
+[0.943s] -- Install configuration: ""
+[0.943s] -- Up-to-date: /home/kakurrix/Documents/Robotica/parcial1_ws/install/mensaje/include/mensaje/mensaje
+[0.943s] -- Up-to-date: /home/kakurrix/Documents/Robotica/parcial1_ws/install/mensaje/include/mensaje/mensaje/msg
+[0.943s] -- Up-to-date: /home/kakurrix/Documents/Robotica/parcial1_ws/install/mensaje/include/mensaje/mensaje/msg/detail
+[0.943s] -- Up-to-date: /home/kakurrix/Documents/Robotica/parcial1_ws/install/mensaje/include/mensaje/mensaje/msg/detail/num__functions.c
+[0.944s] -- Up-to-date: /home/kakurrix/Documents/Robotica/parcial1_ws/install/mensaje/include/mensaje/mensaje/srv
+[0.944s] -- Up-to-date: /home/kakurrix/Documents/Robotica/parcial1_ws/install/mensaje/include/mensaje/mensaje/srv/detail
+[0.944s] -- Up-to-date: /home/kakurrix/Documents/Robotica/parcial1_ws/install/mensaje/include/mensaje/mensaje/srv/detail/kinematics__functions.c
+[0.944s] -- Up-to-date: /home/kakurrix/Documents/Robotica/parcial1_ws/install/mensaje/lib/libmensaje__rosidl_generator_c.so
+[0.944s] -- Up-to-date: /home/kakurrix/Documents/Robotica/parcial1_ws/install/mensaje/include/mensaje/mensaje
+[0.944s] -- Up-to-date: /home/kakurrix/Documents/Robotica/parcial1_ws/install/mensaje/include/mensaje/mensaje/msg
+[0.944s] -- Up-to-date: /home/kakurrix/Documents/Robotica/parcial1_ws/install/mensaje/include/mensaje/mensaje/msg/detail
+[0.945s] -- Up-to-date: /home/kakurrix/Documents/Robotica/parcial1_ws/install/mensaje/include/mensaje/mensaje/srv
+[0.945s] -- Up-to-date: /home/kakurrix/Documents/Robotica/parcial1_ws/install/mensaje/include/mensaje/mensaje/srv/detail
+[0.945s] -- Up-to-date: /home/kakurrix/Documents/Robotica/parcial1_ws/install/mensaje/lib/libmensaje__rosidl_typesupport_fastrtps_c.so
+[0.945s] -- Up-to-date: /home/kakurrix/Documents/Robotica/parcial1_ws/install/mensaje/include/mensaje/mensaje
+[0.945s] -- Up-to-date: /home/kakurrix/Documents/Robotica/parcial1_ws/install/mensaje/include/mensaje/mensaje/msg
+[0.945s] -- Up-to-date: /home/kakurrix/Documents/Robotica/parcial1_ws/install/mensaje/include/mensaje/mensaje/msg/detail
+[0.945s] -- Up-to-date: /home/kakurrix/Documents/Robotica/parcial1_ws/install/mensaje/include/mensaje/mensaje/srv
+[0.946s] -- Up-to-date: /home/kakurrix/Documents/Robotica/parcial1_ws/install/mensaje/include/mensaje/mensaje/srv/detail
+[0.946s] -- Up-to-date: /home/kakurrix/Documents/Robotica/parcial1_ws/install/mensaje/include/mensaje/mensaje
+[0.946s] -- Up-to-date: /home/kakurrix/Documents/Robotica/parcial1_ws/install/mensaje/include/mensaje/mensaje/msg
+[0.946s] -- Up-to-date: /home/kakurrix/Documents/Robotica/parcial1_ws/install/mensaje/include/mensaje/mensaje/msg/detail
+[0.946s] -- Up-to-date: /home/kakurrix/Documents/Robotica/parcial1_ws/install/mensaje/include/mensaje/mensaje/msg/detail/dds_fastrtps
+[0.946s] -- Up-to-date: /home/kakurrix/Documents/Robotica/parcial1_ws/install/mensaje/include/mensaje/mensaje/srv
+[0.946s] -- Up-to-date: /home/kakurrix/Documents/Robotica/parcial1_ws/install/mensaje/include/mensaje/mensaje/srv/detail
+[0.947s] -- Up-to-date: /home/kakurrix/Documents/Robotica/parcial1_ws/install/mensaje/include/mensaje/mensaje/srv/detail/dds_fastrtps
+[0.947s] -- Up-to-date: /home/kakurrix/Documents/Robotica/parcial1_ws/install/mensaje/lib/libmensaje__rosidl_typesupport_fastrtps_cpp.so
+[0.947s] -- Up-to-date: /home/kakurrix/Documents/Robotica/parcial1_ws/install/mensaje/include/mensaje/mensaje
+[0.947s] -- Up-to-date: /home/kakurrix/Documents/Robotica/parcial1_ws/install/mensaje/include/mensaje/mensaje/msg
+[0.947s] -- Up-to-date: /home/kakurrix/Documents/Robotica/parcial1_ws/install/mensaje/include/mensaje/mensaje/msg/detail
+[0.947s] -- Up-to-date: /home/kakurrix/Documents/Robotica/parcial1_ws/install/mensaje/include/mensaje/mensaje/msg/detail/num__type_support.c
+[0.947s] -- Up-to-date: /home/kakurrix/Documents/Robotica/parcial1_ws/install/mensaje/include/mensaje/mensaje/srv
+[0.947s] -- Up-to-date: /home/kakurrix/Documents/Robotica/parcial1_ws/install/mensaje/include/mensaje/mensaje/srv/detail
+[0.948s] -- Up-to-date: /home/kakurrix/Documents/Robotica/parcial1_ws/install/mensaje/include/mensaje/mensaje/srv/detail/kinematics__type_support.c
+[0.948s] -- Up-to-date: /home/kakurrix/Documents/Robotica/parcial1_ws/install/mensaje/lib/libmensaje__rosidl_typesupport_introspection_c.so
+[0.948s] -- Up-to-date: /home/kakurrix/Documents/Robotica/parcial1_ws/install/mensaje/lib/libmensaje__rosidl_typesupport_c.so
+[0.948s] -- Up-to-date: /home/kakurrix/Documents/Robotica/parcial1_ws/install/mensaje/include/mensaje/mensaje
+[0.948s] -- Up-to-date: /home/kakurrix/Documents/Robotica/parcial1_ws/install/mensaje/include/mensaje/mensaje/msg
+[0.948s] -- Up-to-date: /home/kakurrix/Documents/Robotica/parcial1_ws/install/mensaje/include/mensaje/mensaje/msg/detail
+[0.948s] -- Up-to-date: /home/kakurrix/Documents/Robotica/parcial1_ws/install/mensaje/include/mensaje/mensaje/msg/detail/num__type_support.cpp
+[0.948s] -- Up-to-date: /home/kakurrix/Documents/Robotica/parcial1_ws/install/mensaje/include/mensaje/mensaje/srv
+[0.949s] -- Up-to-date: /home/kakurrix/Documents/Robotica/parcial1_ws/install/mensaje/include/mensaje/mensaje/srv/detail
+[0.949s] -- Up-to-date: /home/kakurrix/Documents/Robotica/parcial1_ws/install/mensaje/include/mensaje/mensaje/srv/detail/kinematics__type_support.cpp
+[0.949s] -- Up-to-date: /home/kakurrix/Documents/Robotica/parcial1_ws/install/mensaje/lib/libmensaje__rosidl_typesupport_introspection_cpp.so
+[0.949s] -- Up-to-date: /home/kakurrix/Documents/Robotica/parcial1_ws/install/mensaje/lib/libmensaje__rosidl_typesupport_cpp.so
+[0.949s] -- Up-to-date: /home/kakurrix/Documents/Robotica/parcial1_ws/install/mensaje/local/lib/python3.10/dist-packages/mensaje-0.0.0-py3.10.egg-info
+[0.949s] -- Up-to-date: /home/kakurrix/Documents/Robotica/parcial1_ws/install/mensaje/local/lib/python3.10/dist-packages/mensaje
+[0.949s] -- Up-to-date: /home/kakurrix/Documents/Robotica/parcial1_ws/install/mensaje/local/lib/python3.10/dist-packages/mensaje/msg
+[0.949s] -- Up-to-date: /home/kakurrix/Documents/Robotica/parcial1_ws/install/mensaje/local/lib/python3.10/dist-packages/mensaje/srv
+[0.978s] Listing '/home/kakurrix/Documents/Robotica/parcial1_ws/install/mensaje/local/lib/python3.10/dist-packages/mensaje'...
+[0.978s] Listing '/home/kakurrix/Documents/Robotica/parcial1_ws/install/mensaje/local/lib/python3.10/dist-packages/mensaje/msg'...
+[0.978s] Listing '/home/kakurrix/Documents/Robotica/parcial1_ws/install/mensaje/local/lib/python3.10/dist-packages/mensaje/srv'...
+[0.983s] -- Up-to-date: /home/kakurrix/Documents/Robotica/parcial1_ws/install/mensaje/lib/libmensaje__rosidl_generator_py.so
+[0.983s] -- Installing: /home/kakurrix/Documents/Robotica/parcial1_ws/install/mensaje/share/mensaje/package.dsv
+[0.984s] -- Up-to-date: /home/kakurrix/Documents/Robotica/parcial1_ws/install/mensaje/share/mensaje/cmake/export_mensaje__rosidl_generator_cExport.cmake
+[0.984s] -- Up-to-date: /home/kakurrix/Documents/Robotica/parcial1_ws/install/mensaje/share/mensaje/cmake/export_mensaje__rosidl_generator_cExport-noconfig.cmake
+[0.984s] -- Up-to-date: /home/kakurrix/Documents/Robotica/parcial1_ws/install/mensaje/share/mensaje/cmake/export_mensaje__rosidl_typesupport_fastrtps_cExport.cmake
+[0.984s] -- Up-to-date: /home/kakurrix/Documents/Robotica/parcial1_ws/install/mensaje/share/mensaje/cmake/export_mensaje__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[0.984s] -- Up-to-date: /home/kakurrix/Documents/Robotica/parcial1_ws/install/mensaje/share/mensaje/cmake/export_mensaje__rosidl_generator_cppExport.cmake
+[0.984s] -- Up-to-date: /home/kakurrix/Documents/Robotica/parcial1_ws/install/mensaje/share/mensaje/cmake/export_mensaje__rosidl_typesupport_fastrtps_cppExport.cmake
+[0.985s] -- Up-to-date: /home/kakurrix/Documents/Robotica/parcial1_ws/install/mensaje/share/mensaje/cmake/export_mensaje__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[0.985s] -- Up-to-date: /home/kakurrix/Documents/Robotica/parcial1_ws/install/mensaje/share/mensaje/cmake/mensaje__rosidl_typesupport_introspection_cExport.cmake
+[0.985s] -- Up-to-date: /home/kakurrix/Documents/Robotica/parcial1_ws/install/mensaje/share/mensaje/cmake/mensaje__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[0.985s] -- Up-to-date: /home/kakurrix/Documents/Robotica/parcial1_ws/install/mensaje/share/mensaje/cmake/mensaje__rosidl_typesupport_cExport.cmake
+[0.985s] -- Up-to-date: /home/kakurrix/Documents/Robotica/parcial1_ws/install/mensaje/share/mensaje/cmake/mensaje__rosidl_typesupport_cExport-noconfig.cmake
+[0.985s] -- Up-to-date: /home/kakurrix/Documents/Robotica/parcial1_ws/install/mensaje/share/mensaje/cmake/mensaje__rosidl_typesupport_introspection_cppExport.cmake
+[0.985s] -- Up-to-date: /home/kakurrix/Documents/Robotica/parcial1_ws/install/mensaje/share/mensaje/cmake/mensaje__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[0.985s] -- Up-to-date: /home/kakurrix/Documents/Robotica/parcial1_ws/install/mensaje/share/mensaje/cmake/mensaje__rosidl_typesupport_cppExport.cmake
+[0.985s] -- Up-to-date: /home/kakurrix/Documents/Robotica/parcial1_ws/install/mensaje/share/mensaje/cmake/mensaje__rosidl_typesupport_cppExport-noconfig.cmake
+[0.986s] -- Up-to-date: /home/kakurrix/Documents/Robotica/parcial1_ws/install/mensaje/share/mensaje/cmake/export_mensaje__rosidl_generator_pyExport.cmake
+[0.986s] -- Up-to-date: /home/kakurrix/Documents/Robotica/parcial1_ws/install/mensaje/share/mensaje/cmake/export_mensaje__rosidl_generator_pyExport-noconfig.cmake
+[0.987s] Invoked command in '/home/kakurrix/Documents/Robotica/parcial1_ws/build/mensaje' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/kakurrix/Documents/Robotica/parcial1_ws/build/mensaje

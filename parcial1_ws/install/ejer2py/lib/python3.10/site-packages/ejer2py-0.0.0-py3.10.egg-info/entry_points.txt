@@ -1,0 +1,7 @@
+[console_scripts]
+pub1 = ejer2py.pub1:main
+pub2 = ejer2py.pub2:main
+pub3 = ejer2py.pub3:main
+pubsubprome = ejer2py.pubsubprome:main
+versub = ejer2py.versub:main
+

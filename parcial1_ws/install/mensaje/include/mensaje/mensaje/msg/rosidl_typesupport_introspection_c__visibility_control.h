@@ -1,0 +1,1 @@
+/home/kakurrix/Documents/Robotica/parcial1_ws/build/mensaje/rosidl_typesupport_introspection_c/mensaje/msg/rosidl_typesupport_introspection_c__visibility_control.h

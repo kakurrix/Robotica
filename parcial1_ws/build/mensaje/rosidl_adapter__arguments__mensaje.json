@@ -1,0 +1,7 @@
+{
+  "package_name": "mensaje",
+  "non_idl_tuples": [
+    "/home/kakurrix/Documents/Robotica/parcial1_ws/src/mensaje:msg/Num.msg",
+    "/home/kakurrix/Documents/Robotica/parcial1_ws/src/mensaje:srv/Kinematics.srv"
+  ]
+}

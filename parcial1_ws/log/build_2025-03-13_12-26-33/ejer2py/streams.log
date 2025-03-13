@@ -1,0 +1,38 @@
+[1.243s] Invoking command in '/home/kakurrix/Documents/Robotica/parcial1_ws/src/ejer2py': PYTHONPATH=/home/kakurrix/Documents/Robotica/parcial1_ws/build/ejer2py/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/kakurrix/Documents/Robotica/parcial1_ws/install/ejer2py/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/ejer2py build --build-base /home/kakurrix/Documents/Robotica/parcial1_ws/build/ejer2py/build install --record /home/kakurrix/Documents/Robotica/parcial1_ws/build/ejer2py/install.log --single-version-externally-managed install_data
+[1.494s] running egg_info
+[1.494s] writing ../../build/ejer2py/ejer2py.egg-info/PKG-INFO
+[1.495s] writing dependency_links to ../../build/ejer2py/ejer2py.egg-info/dependency_links.txt
+[1.495s] writing entry points to ../../build/ejer2py/ejer2py.egg-info/entry_points.txt
+[1.495s] writing requirements to ../../build/ejer2py/ejer2py.egg-info/requires.txt
+[1.495s] writing top-level names to ../../build/ejer2py/ejer2py.egg-info/top_level.txt
+[1.497s] reading manifest file '../../build/ejer2py/ejer2py.egg-info/SOURCES.txt'
+[1.498s] adding license file 'LICENSE'
+[1.498s] writing manifest file '../../build/ejer2py/ejer2py.egg-info/SOURCES.txt'
+[1.499s] running build
+[1.499s] running build_py
+[1.499s] copying ejer2py/pub2.py -> /home/kakurrix/Documents/Robotica/parcial1_ws/build/ejer2py/build/lib/ejer2py
+[1.499s] copying ejer2py/pub1.py -> /home/kakurrix/Documents/Robotica/parcial1_ws/build/ejer2py/build/lib/ejer2py
+[1.499s] copying ejer2py/pub3.py -> /home/kakurrix/Documents/Robotica/parcial1_ws/build/ejer2py/build/lib/ejer2py
+[1.500s] copying ejer2py/versub.py -> /home/kakurrix/Documents/Robotica/parcial1_ws/build/ejer2py/build/lib/ejer2py
+[1.500s] running install
+[1.500s] running install_lib
+[1.501s] copying /home/kakurrix/Documents/Robotica/parcial1_ws/build/ejer2py/build/lib/ejer2py/pub2.py -> /home/kakurrix/Documents/Robotica/parcial1_ws/install/ejer2py/lib/python3.10/site-packages/ejer2py
+[1.502s] copying /home/kakurrix/Documents/Robotica/parcial1_ws/build/ejer2py/build/lib/ejer2py/pub1.py -> /home/kakurrix/Documents/Robotica/parcial1_ws/install/ejer2py/lib/python3.10/site-packages/ejer2py
+[1.502s] copying /home/kakurrix/Documents/Robotica/parcial1_ws/build/ejer2py/build/lib/ejer2py/pub3.py -> /home/kakurrix/Documents/Robotica/parcial1_ws/install/ejer2py/lib/python3.10/site-packages/ejer2py
+[1.502s] copying /home/kakurrix/Documents/Robotica/parcial1_ws/build/ejer2py/build/lib/ejer2py/versub.py -> /home/kakurrix/Documents/Robotica/parcial1_ws/install/ejer2py/lib/python3.10/site-packages/ejer2py
+[1.503s] byte-compiling /home/kakurrix/Documents/Robotica/parcial1_ws/install/ejer2py/lib/python3.10/site-packages/ejer2py/pub2.py to pub2.cpython-310.pyc
+[1.503s] byte-compiling /home/kakurrix/Documents/Robotica/parcial1_ws/install/ejer2py/lib/python3.10/site-packages/ejer2py/pub1.py to pub1.cpython-310.pyc
+[1.504s] byte-compiling /home/kakurrix/Documents/Robotica/parcial1_ws/install/ejer2py/lib/python3.10/site-packages/ejer2py/pub3.py to pub3.cpython-310.pyc
+[1.504s] byte-compiling /home/kakurrix/Documents/Robotica/parcial1_ws/install/ejer2py/lib/python3.10/site-packages/ejer2py/versub.py to versub.cpython-310.pyc
+[1.505s] running install_data
+[1.505s] running install_egg_info
+[1.507s] removing '/home/kakurrix/Documents/Robotica/parcial1_ws/install/ejer2py/lib/python3.10/site-packages/ejer2py-0.0.0-py3.10.egg-info' (and everything under it)
+[1.507s] Copying ../../build/ejer2py/ejer2py.egg-info to /home/kakurrix/Documents/Robotica/parcial1_ws/install/ejer2py/lib/python3.10/site-packages/ejer2py-0.0.0-py3.10.egg-info
+[1.508s] running install_scripts
+[1.532s] Installing pub1 script to /home/kakurrix/Documents/Robotica/parcial1_ws/install/ejer2py/lib/ejer2py
+[1.532s] Installing pub2 script to /home/kakurrix/Documents/Robotica/parcial1_ws/install/ejer2py/lib/ejer2py
+[1.532s] Installing pub3 script to /home/kakurrix/Documents/Robotica/parcial1_ws/install/ejer2py/lib/ejer2py
+[1.533s] Installing pubsubprome script to /home/kakurrix/Documents/Robotica/parcial1_ws/install/ejer2py/lib/ejer2py
+[1.533s] Installing versub script to /home/kakurrix/Documents/Robotica/parcial1_ws/install/ejer2py/lib/ejer2py
+[1.533s] writing list of installed files to '/home/kakurrix/Documents/Robotica/parcial1_ws/build/ejer2py/install.log'
+[1.564s] Invoked command in '/home/kakurrix/Documents/Robotica/parcial1_ws/src/ejer2py' returned '0': PYTHONPATH=/home/kakurrix/Documents/Robotica/parcial1_ws/build/ejer2py/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/kakurrix/Documents/Robotica/parcial1_ws/install/ejer2py/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/ejer2py build --build-base /home/kakurrix/Documents/Robotica/parcial1_ws/build/ejer2py/build install --record /home/kakurrix/Documents/Robotica/parcial1_ws/build/ejer2py/install.log --single-version-externally-managed install_data

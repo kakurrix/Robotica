@@ -1,0 +1,4 @@
+[console_scripts]
+cinematicaserv = ejer3py.cinematicaserv:main
+cliente = ejer3py.cliente:main
+

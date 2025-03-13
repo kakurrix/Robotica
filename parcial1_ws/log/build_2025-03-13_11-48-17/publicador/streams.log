@@ -1,0 +1,25 @@
+[1.173s] Invoking command in '/home/kakurrix/Documents/Robotica/parcial1_ws/src/publicador': PYTHONPATH=/home/kakurrix/Documents/Robotica/parcial1_ws/build/publicador/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/kakurrix/Documents/Robotica/parcial1_ws/install/publicador/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/publicador build --build-base /home/kakurrix/Documents/Robotica/parcial1_ws/build/publicador/build install --record /home/kakurrix/Documents/Robotica/parcial1_ws/build/publicador/install.log --single-version-externally-managed install_data
+[1.417s] running egg_info
+[1.418s] writing ../../build/publicador/publicador.egg-info/PKG-INFO
+[1.419s] writing dependency_links to ../../build/publicador/publicador.egg-info/dependency_links.txt
+[1.419s] writing entry points to ../../build/publicador/publicador.egg-info/entry_points.txt
+[1.420s] writing requirements to ../../build/publicador/publicador.egg-info/requires.txt
+[1.420s] writing top-level names to ../../build/publicador/publicador.egg-info/top_level.txt
+[1.422s] reading manifest file '../../build/publicador/publicador.egg-info/SOURCES.txt'
+[1.423s] writing manifest file '../../build/publicador/publicador.egg-info/SOURCES.txt'
+[1.423s] running build
+[1.423s] running build_py
+[1.423s] copying publicador/sus_bin.py -> /home/kakurrix/Documents/Robotica/parcial1_ws/build/publicador/build/lib/publicador
+[1.424s] running install
+[1.424s] running install_lib
+[1.425s] copying /home/kakurrix/Documents/Robotica/parcial1_ws/build/publicador/build/lib/publicador/sus_bin.py -> /home/kakurrix/Documents/Robotica/parcial1_ws/install/publicador/lib/python3.10/site-packages/publicador
+[1.425s] byte-compiling /home/kakurrix/Documents/Robotica/parcial1_ws/install/publicador/lib/python3.10/site-packages/publicador/sus_bin.py to sus_bin.cpython-310.pyc
+[1.426s] running install_data
+[1.426s] running install_egg_info
+[1.428s] removing '/home/kakurrix/Documents/Robotica/parcial1_ws/install/publicador/lib/python3.10/site-packages/publicador-0.0.0-py3.10.egg-info' (and everything under it)
+[1.428s] Copying ../../build/publicador/publicador.egg-info to /home/kakurrix/Documents/Robotica/parcial1_ws/install/publicador/lib/python3.10/site-packages/publicador-0.0.0-py3.10.egg-info
+[1.429s] running install_scripts
+[1.450s] Installing pub_bin script to /home/kakurrix/Documents/Robotica/parcial1_ws/install/publicador/lib/publicador
+[1.450s] Installing sus_bin script to /home/kakurrix/Documents/Robotica/parcial1_ws/install/publicador/lib/publicador
+[1.451s] writing list of installed files to '/home/kakurrix/Documents/Robotica/parcial1_ws/build/publicador/install.log'
+[1.479s] Invoked command in '/home/kakurrix/Documents/Robotica/parcial1_ws/src/publicador' returned '0': PYTHONPATH=/home/kakurrix/Documents/Robotica/parcial1_ws/build/publicador/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/kakurrix/Documents/Robotica/parcial1_ws/install/publicador/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/publicador build --build-base /home/kakurrix/Documents/Robotica/parcial1_ws/build/publicador/build install --record /home/kakurrix/Documents/Robotica/parcial1_ws/build/publicador/install.log --single-version-externally-managed install_data

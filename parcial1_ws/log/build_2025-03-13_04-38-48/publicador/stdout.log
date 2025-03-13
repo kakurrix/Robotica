@@ -1,0 +1,23 @@
+running develop
+running egg_info
+creating publicador.egg-info
+writing publicador.egg-info/PKG-INFO
+writing dependency_links to publicador.egg-info/dependency_links.txt
+writing entry points to publicador.egg-info/entry_points.txt
+writing requirements to publicador.egg-info/requires.txt
+writing top-level names to publicador.egg-info/top_level.txt
+writing manifest file 'publicador.egg-info/SOURCES.txt'
+reading manifest file 'publicador.egg-info/SOURCES.txt'
+writing manifest file 'publicador.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/kakurrix/Documents/Robotica/parcial1_ws/install/publicador/lib/python3.10/site-packages/publicador.egg-link (link to .)
+Installing pub_bin script to /home/kakurrix/Documents/Robotica/parcial1_ws/install/publicador/lib/publicador
+Installing sus_bin script to /home/kakurrix/Documents/Robotica/parcial1_ws/install/publicador/lib/publicador
+
+Installed /home/kakurrix/Documents/Robotica/parcial1_ws/build/publicador
+running symlink_data
+creating /home/kakurrix/Documents/Robotica/parcial1_ws/install/publicador/share/ament_index
+creating /home/kakurrix/Documents/Robotica/parcial1_ws/install/publicador/share/ament_index/resource_index
+creating /home/kakurrix/Documents/Robotica/parcial1_ws/install/publicador/share/ament_index/resource_index/packages
+symbolically linking /home/kakurrix/Documents/Robotica/parcial1_ws/build/publicador/resource/publicador -> /home/kakurrix/Documents/Robotica/parcial1_ws/install/publicador/share/ament_index/resource_index/packages
+symbolically linking /home/kakurrix/Documents/Robotica/parcial1_ws/build/publicador/package.xml -> /home/kakurrix/Documents/Robotica/parcial1_ws/install/publicador/share/publicador

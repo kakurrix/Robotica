@@ -1,0 +1,299 @@
+[0.113s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.114s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=8, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0x7d836bb51a80>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7d836bb513c0>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7d836bb513c0>>, mixin_verb=('build',))
+[0.287s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.287s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.288s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.288s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.288s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.288s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.288s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/kakurrix/Documents/Robotica/parcial1_ws'
+[0.288s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.288s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.288s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.288s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.288s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.288s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.288s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.288s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.288s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.299s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.299s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.299s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.299s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.299s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.299s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.300s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.300s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.300s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.300s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.300s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.300s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.300s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.300s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.300s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.300s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.300s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.300s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.300s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.300s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.301s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.301s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.301s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.301s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.301s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.301s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.301s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.301s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.301s] Level 1:colcon.colcon_core.package_identification:_identify(src/ejer2py) by extensions ['ignore', 'ignore_ament_install']
+[0.301s] Level 1:colcon.colcon_core.package_identification:_identify(src/ejer2py) by extension 'ignore'
+[0.301s] Level 1:colcon.colcon_core.package_identification:_identify(src/ejer2py) by extension 'ignore_ament_install'
+[0.301s] Level 1:colcon.colcon_core.package_identification:_identify(src/ejer2py) by extensions ['colcon_pkg']
+[0.301s] Level 1:colcon.colcon_core.package_identification:_identify(src/ejer2py) by extension 'colcon_pkg'
+[0.301s] Level 1:colcon.colcon_core.package_identification:_identify(src/ejer2py) by extensions ['colcon_meta']
+[0.301s] Level 1:colcon.colcon_core.package_identification:_identify(src/ejer2py) by extension 'colcon_meta'
+[0.301s] Level 1:colcon.colcon_core.package_identification:_identify(src/ejer2py) by extensions ['ros']
+[0.301s] Level 1:colcon.colcon_core.package_identification:_identify(src/ejer2py) by extension 'ros'
+[0.304s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ejer2py' with type 'ros.ament_python' and name 'ejer2py'
+[0.304s] Level 1:colcon.colcon_core.package_identification:_identify(src/ejer3py) by extensions ['ignore', 'ignore_ament_install']
+[0.304s] Level 1:colcon.colcon_core.package_identification:_identify(src/ejer3py) by extension 'ignore'
+[0.304s] Level 1:colcon.colcon_core.package_identification:_identify(src/ejer3py) by extension 'ignore_ament_install'
+[0.304s] Level 1:colcon.colcon_core.package_identification:_identify(src/ejer3py) by extensions ['colcon_pkg']
+[0.304s] Level 1:colcon.colcon_core.package_identification:_identify(src/ejer3py) by extension 'colcon_pkg'
+[0.304s] Level 1:colcon.colcon_core.package_identification:_identify(src/ejer3py) by extensions ['colcon_meta']
+[0.304s] Level 1:colcon.colcon_core.package_identification:_identify(src/ejer3py) by extension 'colcon_meta'
+[0.304s] Level 1:colcon.colcon_core.package_identification:_identify(src/ejer3py) by extensions ['ros']
+[0.304s] Level 1:colcon.colcon_core.package_identification:_identify(src/ejer3py) by extension 'ros'
+[0.305s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ejer3py' with type 'ros.ament_python' and name 'ejer3py'
+[0.305s] Level 1:colcon.colcon_core.package_identification:_identify(src/mensaje) by extensions ['ignore', 'ignore_ament_install']
+[0.305s] Level 1:colcon.colcon_core.package_identification:_identify(src/mensaje) by extension 'ignore'
+[0.306s] Level 1:colcon.colcon_core.package_identification:_identify(src/mensaje) by extension 'ignore_ament_install'
+[0.306s] Level 1:colcon.colcon_core.package_identification:_identify(src/mensaje) by extensions ['colcon_pkg']
+[0.306s] Level 1:colcon.colcon_core.package_identification:_identify(src/mensaje) by extension 'colcon_pkg'
+[0.306s] Level 1:colcon.colcon_core.package_identification:_identify(src/mensaje) by extensions ['colcon_meta']
+[0.306s] Level 1:colcon.colcon_core.package_identification:_identify(src/mensaje) by extension 'colcon_meta'
+[0.306s] Level 1:colcon.colcon_core.package_identification:_identify(src/mensaje) by extensions ['ros']
+[0.306s] Level 1:colcon.colcon_core.package_identification:_identify(src/mensaje) by extension 'ros'
+[0.306s] DEBUG:colcon.colcon_core.package_identification:Package 'src/mensaje' with type 'ros.ament_cmake' and name 'mensaje'
+[0.306s] Level 1:colcon.colcon_core.package_identification:_identify(src/publicador) by extensions ['ignore', 'ignore_ament_install']
+[0.307s] Level 1:colcon.colcon_core.package_identification:_identify(src/publicador) by extension 'ignore'
+[0.307s] Level 1:colcon.colcon_core.package_identification:_identify(src/publicador) by extension 'ignore_ament_install'
+[0.307s] Level 1:colcon.colcon_core.package_identification:_identify(src/publicador) by extensions ['colcon_pkg']
+[0.307s] Level 1:colcon.colcon_core.package_identification:_identify(src/publicador) by extension 'colcon_pkg'
+[0.307s] Level 1:colcon.colcon_core.package_identification:_identify(src/publicador) by extensions ['colcon_meta']
+[0.307s] Level 1:colcon.colcon_core.package_identification:_identify(src/publicador) by extension 'colcon_meta'
+[0.307s] Level 1:colcon.colcon_core.package_identification:_identify(src/publicador) by extensions ['ros']
+[0.307s] Level 1:colcon.colcon_core.package_identification:_identify(src/publicador) by extension 'ros'
+[0.307s] DEBUG:colcon.colcon_core.package_identification:Package 'src/publicador' with type 'ros.ament_python' and name 'publicador'
+[0.308s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.308s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.308s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.308s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.308s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.337s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.337s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.339s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 4 installed packages in /home/kakurrix/Documents/Robotica/parcial1_ws/install
+[0.341s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 271 installed packages in /opt/ros/humble
+[0.342s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.381s] Level 5:colcon.colcon_core.verb:set package 'ejer2py' build argument 'cmake_args' from command line to 'None'
+[0.381s] Level 5:colcon.colcon_core.verb:set package 'ejer2py' build argument 'cmake_target' from command line to 'None'
+[0.381s] Level 5:colcon.colcon_core.verb:set package 'ejer2py' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.381s] Level 5:colcon.colcon_core.verb:set package 'ejer2py' build argument 'cmake_clean_cache' from command line to 'False'
+[0.381s] Level 5:colcon.colcon_core.verb:set package 'ejer2py' build argument 'cmake_clean_first' from command line to 'False'
+[0.381s] Level 5:colcon.colcon_core.verb:set package 'ejer2py' build argument 'cmake_force_configure' from command line to 'False'
+[0.381s] Level 5:colcon.colcon_core.verb:set package 'ejer2py' build argument 'ament_cmake_args' from command line to 'None'
+[0.381s] Level 5:colcon.colcon_core.verb:set package 'ejer2py' build argument 'catkin_cmake_args' from command line to 'None'
+[0.382s] Level 5:colcon.colcon_core.verb:set package 'ejer2py' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.382s] DEBUG:colcon.colcon_core.verb:Building package 'ejer2py' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/kakurrix/Documents/Robotica/parcial1_ws/build/ejer2py', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/kakurrix/Documents/Robotica/parcial1_ws/install/ejer2py', 'merge_install': False, 'path': '/home/kakurrix/Documents/Robotica/parcial1_ws/src/ejer2py', 'symlink_install': False, 'test_result_base': None}
+[0.382s] Level 5:colcon.colcon_core.verb:set package 'ejer3py' build argument 'cmake_args' from command line to 'None'
+[0.382s] Level 5:colcon.colcon_core.verb:set package 'ejer3py' build argument 'cmake_target' from command line to 'None'
+[0.382s] Level 5:colcon.colcon_core.verb:set package 'ejer3py' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.382s] Level 5:colcon.colcon_core.verb:set package 'ejer3py' build argument 'cmake_clean_cache' from command line to 'False'
+[0.382s] Level 5:colcon.colcon_core.verb:set package 'ejer3py' build argument 'cmake_clean_first' from command line to 'False'
+[0.382s] Level 5:colcon.colcon_core.verb:set package 'ejer3py' build argument 'cmake_force_configure' from command line to 'False'
+[0.382s] Level 5:colcon.colcon_core.verb:set package 'ejer3py' build argument 'ament_cmake_args' from command line to 'None'
+[0.382s] Level 5:colcon.colcon_core.verb:set package 'ejer3py' build argument 'catkin_cmake_args' from command line to 'None'
+[0.382s] Level 5:colcon.colcon_core.verb:set package 'ejer3py' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.382s] DEBUG:colcon.colcon_core.verb:Building package 'ejer3py' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/kakurrix/Documents/Robotica/parcial1_ws/build/ejer3py', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/kakurrix/Documents/Robotica/parcial1_ws/install/ejer3py', 'merge_install': False, 'path': '/home/kakurrix/Documents/Robotica/parcial1_ws/src/ejer3py', 'symlink_install': False, 'test_result_base': None}
+[0.383s] Level 5:colcon.colcon_core.verb:set package 'mensaje' build argument 'cmake_args' from command line to 'None'
+[0.383s] Level 5:colcon.colcon_core.verb:set package 'mensaje' build argument 'cmake_target' from command line to 'None'
+[0.383s] Level 5:colcon.colcon_core.verb:set package 'mensaje' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.383s] Level 5:colcon.colcon_core.verb:set package 'mensaje' build argument 'cmake_clean_cache' from command line to 'False'
+[0.383s] Level 5:colcon.colcon_core.verb:set package 'mensaje' build argument 'cmake_clean_first' from command line to 'False'
+[0.383s] Level 5:colcon.colcon_core.verb:set package 'mensaje' build argument 'cmake_force_configure' from command line to 'False'
+[0.383s] Level 5:colcon.colcon_core.verb:set package 'mensaje' build argument 'ament_cmake_args' from command line to 'None'
+[0.383s] Level 5:colcon.colcon_core.verb:set package 'mensaje' build argument 'catkin_cmake_args' from command line to 'None'
+[0.383s] Level 5:colcon.colcon_core.verb:set package 'mensaje' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.383s] DEBUG:colcon.colcon_core.verb:Building package 'mensaje' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/kakurrix/Documents/Robotica/parcial1_ws/build/mensaje', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/kakurrix/Documents/Robotica/parcial1_ws/install/mensaje', 'merge_install': False, 'path': '/home/kakurrix/Documents/Robotica/parcial1_ws/src/mensaje', 'symlink_install': False, 'test_result_base': None}
+[0.384s] Level 5:colcon.colcon_core.verb:set package 'publicador' build argument 'cmake_args' from command line to 'None'
+[0.384s] Level 5:colcon.colcon_core.verb:set package 'publicador' build argument 'cmake_target' from command line to 'None'
+[0.384s] Level 5:colcon.colcon_core.verb:set package 'publicador' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.384s] Level 5:colcon.colcon_core.verb:set package 'publicador' build argument 'cmake_clean_cache' from command line to 'False'
+[0.384s] Level 5:colcon.colcon_core.verb:set package 'publicador' build argument 'cmake_clean_first' from command line to 'False'
+[0.384s] Level 5:colcon.colcon_core.verb:set package 'publicador' build argument 'cmake_force_configure' from command line to 'False'
+[0.384s] Level 5:colcon.colcon_core.verb:set package 'publicador' build argument 'ament_cmake_args' from command line to 'None'
+[0.384s] Level 5:colcon.colcon_core.verb:set package 'publicador' build argument 'catkin_cmake_args' from command line to 'None'
+[0.384s] Level 5:colcon.colcon_core.verb:set package 'publicador' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.384s] DEBUG:colcon.colcon_core.verb:Building package 'publicador' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/kakurrix/Documents/Robotica/parcial1_ws/build/publicador', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/kakurrix/Documents/Robotica/parcial1_ws/install/publicador', 'merge_install': False, 'path': '/home/kakurrix/Documents/Robotica/parcial1_ws/src/publicador', 'symlink_install': False, 'test_result_base': None}
+[0.384s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.386s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.386s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/kakurrix/Documents/Robotica/parcial1_ws/src/ejer2py' with build type 'ament_python'
+[0.386s] Level 1:colcon.colcon_core.shell:create_environment_hook('ejer2py', 'ament_prefix_path')
+[0.388s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.389s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kakurrix/Documents/Robotica/parcial1_ws/install/ejer2py/share/ejer2py/hook/ament_prefix_path.ps1'
+[0.389s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/kakurrix/Documents/Robotica/parcial1_ws/install/ejer2py/share/ejer2py/hook/ament_prefix_path.dsv'
+[0.390s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kakurrix/Documents/Robotica/parcial1_ws/install/ejer2py/share/ejer2py/hook/ament_prefix_path.sh'
+[0.391s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.391s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.394s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/kakurrix/Documents/Robotica/parcial1_ws/src/ejer3py' with build type 'ament_python'
+[0.394s] Level 1:colcon.colcon_core.shell:create_environment_hook('ejer3py', 'ament_prefix_path')
+[0.394s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kakurrix/Documents/Robotica/parcial1_ws/install/ejer3py/share/ejer3py/hook/ament_prefix_path.ps1'
+[0.395s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/kakurrix/Documents/Robotica/parcial1_ws/install/ejer3py/share/ejer3py/hook/ament_prefix_path.dsv'
+[0.395s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kakurrix/Documents/Robotica/parcial1_ws/install/ejer3py/share/ejer3py/hook/ament_prefix_path.sh'
+[0.396s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.396s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.400s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/kakurrix/Documents/Robotica/parcial1_ws/src/mensaje' with build type 'ament_cmake'
+[0.400s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/kakurrix/Documents/Robotica/parcial1_ws/src/mensaje'
+[0.400s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.401s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.404s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/kakurrix/Documents/Robotica/parcial1_ws/src/publicador' with build type 'ament_python'
+[0.405s] Level 1:colcon.colcon_core.shell:create_environment_hook('publicador', 'ament_prefix_path')
+[0.405s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kakurrix/Documents/Robotica/parcial1_ws/install/publicador/share/publicador/hook/ament_prefix_path.ps1'
+[0.405s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/kakurrix/Documents/Robotica/parcial1_ws/install/publicador/share/publicador/hook/ament_prefix_path.dsv'
+[0.406s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kakurrix/Documents/Robotica/parcial1_ws/install/publicador/share/publicador/hook/ament_prefix_path.sh'
+[0.407s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.407s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.671s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/kakurrix/Documents/Robotica/parcial1_ws/src/ejer2py'
+[0.671s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.671s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.946s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/kakurrix/Documents/Robotica/parcial1_ws/src/ejer3py'
+[0.946s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.946s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.953s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/kakurrix/Documents/Robotica/parcial1_ws/build/mensaje': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/kakurrix/Documents/Robotica/parcial1_ws/install/publicador:/home/kakurrix/Documents/Robotica/parcial1_ws/install/ejer3py:/home/kakurrix/Documents/Robotica/parcial1_ws/install/ejer2py:/opt/ros/humble /usr/bin/cmake --build /home/kakurrix/Documents/Robotica/parcial1_ws/build/mensaje -- -j8 -l8
+[1.242s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/kakurrix/Documents/Robotica/parcial1_ws/src/publicador'
+[1.242s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.242s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.335s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/kakurrix/Documents/Robotica/parcial1_ws/build/mensaje' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/kakurrix/Documents/Robotica/parcial1_ws/install/publicador:/home/kakurrix/Documents/Robotica/parcial1_ws/install/ejer3py:/home/kakurrix/Documents/Robotica/parcial1_ws/install/ejer2py:/opt/ros/humble /usr/bin/cmake --build /home/kakurrix/Documents/Robotica/parcial1_ws/build/mensaje -- -j8 -l8
+[1.346s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/kakurrix/Documents/Robotica/parcial1_ws/build/mensaje': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/kakurrix/Documents/Robotica/parcial1_ws/install/publicador:/home/kakurrix/Documents/Robotica/parcial1_ws/install/ejer3py:/home/kakurrix/Documents/Robotica/parcial1_ws/install/ejer2py:/opt/ros/humble /usr/bin/cmake --install /home/kakurrix/Documents/Robotica/parcial1_ws/build/mensaje
+[1.444s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(mensaje)
+[1.445s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/kakurrix/Documents/Robotica/parcial1_ws/build/mensaje' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/kakurrix/Documents/Robotica/parcial1_ws/install/publicador:/home/kakurrix/Documents/Robotica/parcial1_ws/install/ejer3py:/home/kakurrix/Documents/Robotica/parcial1_ws/install/ejer2py:/opt/ros/humble /usr/bin/cmake --install /home/kakurrix/Documents/Robotica/parcial1_ws/build/mensaje
+[1.447s] Level 1:colcon.colcon_core.environment:checking '/home/kakurrix/Documents/Robotica/parcial1_ws/install/mensaje' for CMake module files
+[1.447s] Level 1:colcon.colcon_core.environment:checking '/home/kakurrix/Documents/Robotica/parcial1_ws/install/mensaje' for CMake config files
+[1.448s] Level 1:colcon.colcon_core.shell:create_environment_hook('mensaje', 'cmake_prefix_path')
+[1.448s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kakurrix/Documents/Robotica/parcial1_ws/install/mensaje/share/mensaje/hook/cmake_prefix_path.ps1'
+[1.449s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/kakurrix/Documents/Robotica/parcial1_ws/install/mensaje/share/mensaje/hook/cmake_prefix_path.dsv'
+[1.449s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kakurrix/Documents/Robotica/parcial1_ws/install/mensaje/share/mensaje/hook/cmake_prefix_path.sh'
+[1.450s] Level 1:colcon.colcon_core.environment:checking '/home/kakurrix/Documents/Robotica/parcial1_ws/install/mensaje/lib'
+[1.450s] Level 1:colcon.colcon_core.shell:create_environment_hook('mensaje', 'ld_library_path_lib')
+[1.450s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kakurrix/Documents/Robotica/parcial1_ws/install/mensaje/share/mensaje/hook/ld_library_path_lib.ps1'
+[1.451s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/kakurrix/Documents/Robotica/parcial1_ws/install/mensaje/share/mensaje/hook/ld_library_path_lib.dsv'
+[1.451s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kakurrix/Documents/Robotica/parcial1_ws/install/mensaje/share/mensaje/hook/ld_library_path_lib.sh'
+[1.451s] Level 1:colcon.colcon_core.environment:checking '/home/kakurrix/Documents/Robotica/parcial1_ws/install/mensaje/bin'
+[1.451s] Level 1:colcon.colcon_core.environment:checking '/home/kakurrix/Documents/Robotica/parcial1_ws/install/mensaje/lib/pkgconfig/mensaje.pc'
+[1.452s] Level 1:colcon.colcon_core.environment:checking '/home/kakurrix/Documents/Robotica/parcial1_ws/install/mensaje/lib/python3.10/site-packages'
+[1.452s] Level 1:colcon.colcon_core.environment:checking '/home/kakurrix/Documents/Robotica/parcial1_ws/install/mensaje/bin'
+[1.452s] INFO:colcon.colcon_core.shell:Creating package script '/home/kakurrix/Documents/Robotica/parcial1_ws/install/mensaje/share/mensaje/package.ps1'
+[1.453s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/kakurrix/Documents/Robotica/parcial1_ws/install/mensaje/share/mensaje/package.dsv'
+[1.454s] INFO:colcon.colcon_core.shell:Creating package script '/home/kakurrix/Documents/Robotica/parcial1_ws/install/mensaje/share/mensaje/package.sh'
+[1.454s] INFO:colcon.colcon_core.shell:Creating package script '/home/kakurrix/Documents/Robotica/parcial1_ws/install/mensaje/share/mensaje/package.bash'
+[1.455s] INFO:colcon.colcon_core.shell:Creating package script '/home/kakurrix/Documents/Robotica/parcial1_ws/install/mensaje/share/mensaje/package.zsh'
+[1.456s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/kakurrix/Documents/Robotica/parcial1_ws/install/mensaje/share/colcon-core/packages/mensaje)
+[1.456s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(mensaje)
+[1.457s] Level 1:colcon.colcon_core.environment:checking '/home/kakurrix/Documents/Robotica/parcial1_ws/install/mensaje' for CMake module files
+[1.457s] Level 1:colcon.colcon_core.environment:checking '/home/kakurrix/Documents/Robotica/parcial1_ws/install/mensaje' for CMake config files
+[1.458s] Level 1:colcon.colcon_core.shell:create_environment_hook('mensaje', 'cmake_prefix_path')
+[1.458s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kakurrix/Documents/Robotica/parcial1_ws/install/mensaje/share/mensaje/hook/cmake_prefix_path.ps1'
+[1.459s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/kakurrix/Documents/Robotica/parcial1_ws/install/mensaje/share/mensaje/hook/cmake_prefix_path.dsv'
+[1.459s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kakurrix/Documents/Robotica/parcial1_ws/install/mensaje/share/mensaje/hook/cmake_prefix_path.sh'
+[1.459s] Level 1:colcon.colcon_core.environment:checking '/home/kakurrix/Documents/Robotica/parcial1_ws/install/mensaje/lib'
+[1.459s] Level 1:colcon.colcon_core.shell:create_environment_hook('mensaje', 'ld_library_path_lib')
+[1.460s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kakurrix/Documents/Robotica/parcial1_ws/install/mensaje/share/mensaje/hook/ld_library_path_lib.ps1'
+[1.460s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/kakurrix/Documents/Robotica/parcial1_ws/install/mensaje/share/mensaje/hook/ld_library_path_lib.dsv'
+[1.460s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kakurrix/Documents/Robotica/parcial1_ws/install/mensaje/share/mensaje/hook/ld_library_path_lib.sh'
+[1.461s] Level 1:colcon.colcon_core.environment:checking '/home/kakurrix/Documents/Robotica/parcial1_ws/install/mensaje/bin'
+[1.461s] Level 1:colcon.colcon_core.environment:checking '/home/kakurrix/Documents/Robotica/parcial1_ws/install/mensaje/lib/pkgconfig/mensaje.pc'
+[1.461s] Level 1:colcon.colcon_core.environment:checking '/home/kakurrix/Documents/Robotica/parcial1_ws/install/mensaje/lib/python3.10/site-packages'
+[1.461s] Level 1:colcon.colcon_core.environment:checking '/home/kakurrix/Documents/Robotica/parcial1_ws/install/mensaje/bin'
+[1.462s] INFO:colcon.colcon_core.shell:Creating package script '/home/kakurrix/Documents/Robotica/parcial1_ws/install/mensaje/share/mensaje/package.ps1'
+[1.462s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/kakurrix/Documents/Robotica/parcial1_ws/install/mensaje/share/mensaje/package.dsv'
+[1.463s] INFO:colcon.colcon_core.shell:Creating package script '/home/kakurrix/Documents/Robotica/parcial1_ws/install/mensaje/share/mensaje/package.sh'
+[1.463s] INFO:colcon.colcon_core.shell:Creating package script '/home/kakurrix/Documents/Robotica/parcial1_ws/install/mensaje/share/mensaje/package.bash'
+[1.464s] INFO:colcon.colcon_core.shell:Creating package script '/home/kakurrix/Documents/Robotica/parcial1_ws/install/mensaje/share/mensaje/package.zsh'
+[1.464s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/kakurrix/Documents/Robotica/parcial1_ws/install/mensaje/share/colcon-core/packages/mensaje)
+[1.613s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/kakurrix/Documents/Robotica/parcial1_ws/src/ejer3py': PYTHONPATH=/home/kakurrix/Documents/Robotica/parcial1_ws/build/ejer3py/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/kakurrix/Documents/Robotica/parcial1_ws/install/ejer3py/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/ejer3py build --build-base /home/kakurrix/Documents/Robotica/parcial1_ws/build/ejer3py/build install --record /home/kakurrix/Documents/Robotica/parcial1_ws/build/ejer3py/install.log --single-version-externally-managed install_data
+[1.641s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/kakurrix/Documents/Robotica/parcial1_ws/src/publicador': PYTHONPATH=/home/kakurrix/Documents/Robotica/parcial1_ws/build/publicador/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/kakurrix/Documents/Robotica/parcial1_ws/install/publicador/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/publicador build --build-base /home/kakurrix/Documents/Robotica/parcial1_ws/build/publicador/build install --record /home/kakurrix/Documents/Robotica/parcial1_ws/build/publicador/install.log --single-version-externally-managed install_data
+[1.650s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/kakurrix/Documents/Robotica/parcial1_ws/src/ejer2py': PYTHONPATH=/home/kakurrix/Documents/Robotica/parcial1_ws/build/ejer2py/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/kakurrix/Documents/Robotica/parcial1_ws/install/ejer2py/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/ejer2py build --build-base /home/kakurrix/Documents/Robotica/parcial1_ws/build/ejer2py/build install --record /home/kakurrix/Documents/Robotica/parcial1_ws/build/ejer2py/install.log --single-version-externally-managed install_data
+[1.930s] Level 1:colcon.colcon_core.environment:checking '/home/kakurrix/Documents/Robotica/parcial1_ws/install/ejer3py' for CMake module files
+[1.930s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/kakurrix/Documents/Robotica/parcial1_ws/src/ejer3py' returned '0': PYTHONPATH=/home/kakurrix/Documents/Robotica/parcial1_ws/build/ejer3py/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/kakurrix/Documents/Robotica/parcial1_ws/install/ejer3py/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/ejer3py build --build-base /home/kakurrix/Documents/Robotica/parcial1_ws/build/ejer3py/build install --record /home/kakurrix/Documents/Robotica/parcial1_ws/build/ejer3py/install.log --single-version-externally-managed install_data
+[1.931s] Level 1:colcon.colcon_core.environment:checking '/home/kakurrix/Documents/Robotica/parcial1_ws/install/ejer3py' for CMake config files
+[1.931s] Level 1:colcon.colcon_core.environment:checking '/home/kakurrix/Documents/Robotica/parcial1_ws/install/ejer3py/lib'
+[1.931s] Level 1:colcon.colcon_core.environment:checking '/home/kakurrix/Documents/Robotica/parcial1_ws/install/ejer3py/bin'
+[1.931s] Level 1:colcon.colcon_core.environment:checking '/home/kakurrix/Documents/Robotica/parcial1_ws/install/ejer3py/lib/pkgconfig/ejer3py.pc'
+[1.932s] Level 1:colcon.colcon_core.environment:checking '/home/kakurrix/Documents/Robotica/parcial1_ws/install/ejer3py/lib/python3.10/site-packages'
+[1.932s] Level 1:colcon.colcon_core.shell:create_environment_hook('ejer3py', 'pythonpath')
+[1.932s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kakurrix/Documents/Robotica/parcial1_ws/install/ejer3py/share/ejer3py/hook/pythonpath.ps1'
+[1.933s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/kakurrix/Documents/Robotica/parcial1_ws/install/ejer3py/share/ejer3py/hook/pythonpath.dsv'
+[1.933s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kakurrix/Documents/Robotica/parcial1_ws/install/ejer3py/share/ejer3py/hook/pythonpath.sh'
+[1.934s] Level 1:colcon.colcon_core.environment:checking '/home/kakurrix/Documents/Robotica/parcial1_ws/install/ejer3py/bin'
+[1.934s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ejer3py)
+[1.934s] INFO:colcon.colcon_core.shell:Creating package script '/home/kakurrix/Documents/Robotica/parcial1_ws/install/ejer3py/share/ejer3py/package.ps1'
+[1.935s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/kakurrix/Documents/Robotica/parcial1_ws/install/ejer3py/share/ejer3py/package.dsv'
+[1.935s] INFO:colcon.colcon_core.shell:Creating package script '/home/kakurrix/Documents/Robotica/parcial1_ws/install/ejer3py/share/ejer3py/package.sh'
+[1.935s] INFO:colcon.colcon_core.shell:Creating package script '/home/kakurrix/Documents/Robotica/parcial1_ws/install/ejer3py/share/ejer3py/package.bash'
+[1.936s] INFO:colcon.colcon_core.shell:Creating package script '/home/kakurrix/Documents/Robotica/parcial1_ws/install/ejer3py/share/ejer3py/package.zsh'
+[1.936s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/kakurrix/Documents/Robotica/parcial1_ws/install/ejer3py/share/colcon-core/packages/ejer3py)
+[1.956s] Level 1:colcon.colcon_core.environment:checking '/home/kakurrix/Documents/Robotica/parcial1_ws/install/publicador' for CMake module files
+[1.957s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/kakurrix/Documents/Robotica/parcial1_ws/src/publicador' returned '0': PYTHONPATH=/home/kakurrix/Documents/Robotica/parcial1_ws/build/publicador/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/kakurrix/Documents/Robotica/parcial1_ws/install/publicador/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/publicador build --build-base /home/kakurrix/Documents/Robotica/parcial1_ws/build/publicador/build install --record /home/kakurrix/Documents/Robotica/parcial1_ws/build/publicador/install.log --single-version-externally-managed install_data
+[1.957s] Level 1:colcon.colcon_core.environment:checking '/home/kakurrix/Documents/Robotica/parcial1_ws/install/publicador' for CMake config files
+[1.958s] Level 1:colcon.colcon_core.environment:checking '/home/kakurrix/Documents/Robotica/parcial1_ws/install/publicador/lib'
+[1.958s] Level 1:colcon.colcon_core.environment:checking '/home/kakurrix/Documents/Robotica/parcial1_ws/install/publicador/bin'
+[1.958s] Level 1:colcon.colcon_core.environment:checking '/home/kakurrix/Documents/Robotica/parcial1_ws/install/publicador/lib/pkgconfig/publicador.pc'
+[1.958s] Level 1:colcon.colcon_core.environment:checking '/home/kakurrix/Documents/Robotica/parcial1_ws/install/publicador/lib/python3.10/site-packages'
+[1.958s] Level 1:colcon.colcon_core.shell:create_environment_hook('publicador', 'pythonpath')
+[1.958s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kakurrix/Documents/Robotica/parcial1_ws/install/publicador/share/publicador/hook/pythonpath.ps1'
+[1.959s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/kakurrix/Documents/Robotica/parcial1_ws/install/publicador/share/publicador/hook/pythonpath.dsv'
+[1.959s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kakurrix/Documents/Robotica/parcial1_ws/install/publicador/share/publicador/hook/pythonpath.sh'
+[1.960s] Level 1:colcon.colcon_core.environment:checking '/home/kakurrix/Documents/Robotica/parcial1_ws/install/publicador/bin'
+[1.960s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(publicador)
+[1.960s] INFO:colcon.colcon_core.shell:Creating package script '/home/kakurrix/Documents/Robotica/parcial1_ws/install/publicador/share/publicador/package.ps1'
+[1.961s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/kakurrix/Documents/Robotica/parcial1_ws/install/publicador/share/publicador/package.dsv'
+[1.961s] INFO:colcon.colcon_core.shell:Creating package script '/home/kakurrix/Documents/Robotica/parcial1_ws/install/publicador/share/publicador/package.sh'
+[1.962s] INFO:colcon.colcon_core.shell:Creating package script '/home/kakurrix/Documents/Robotica/parcial1_ws/install/publicador/share/publicador/package.bash'
+[1.962s] INFO:colcon.colcon_core.shell:Creating package script '/home/kakurrix/Documents/Robotica/parcial1_ws/install/publicador/share/publicador/package.zsh'
+[1.963s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/kakurrix/Documents/Robotica/parcial1_ws/install/publicador/share/colcon-core/packages/publicador)
+[1.981s] Level 1:colcon.colcon_core.environment:checking '/home/kakurrix/Documents/Robotica/parcial1_ws/install/ejer2py' for CMake module files
+[1.981s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/kakurrix/Documents/Robotica/parcial1_ws/src/ejer2py' returned '0': PYTHONPATH=/home/kakurrix/Documents/Robotica/parcial1_ws/build/ejer2py/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/kakurrix/Documents/Robotica/parcial1_ws/install/ejer2py/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/ejer2py build --build-base /home/kakurrix/Documents/Robotica/parcial1_ws/build/ejer2py/build install --record /home/kakurrix/Documents/Robotica/parcial1_ws/build/ejer2py/install.log --single-version-externally-managed install_data
+[1.982s] Level 1:colcon.colcon_core.environment:checking '/home/kakurrix/Documents/Robotica/parcial1_ws/install/ejer2py' for CMake config files
+[1.982s] Level 1:colcon.colcon_core.environment:checking '/home/kakurrix/Documents/Robotica/parcial1_ws/install/ejer2py/lib'
+[1.982s] Level 1:colcon.colcon_core.environment:checking '/home/kakurrix/Documents/Robotica/parcial1_ws/install/ejer2py/bin'
+[1.982s] Level 1:colcon.colcon_core.environment:checking '/home/kakurrix/Documents/Robotica/parcial1_ws/install/ejer2py/lib/pkgconfig/ejer2py.pc'
+[1.983s] Level 1:colcon.colcon_core.environment:checking '/home/kakurrix/Documents/Robotica/parcial1_ws/install/ejer2py/lib/python3.10/site-packages'
+[1.983s] Level 1:colcon.colcon_core.shell:create_environment_hook('ejer2py', 'pythonpath')
+[1.983s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kakurrix/Documents/Robotica/parcial1_ws/install/ejer2py/share/ejer2py/hook/pythonpath.ps1'
+[1.984s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/kakurrix/Documents/Robotica/parcial1_ws/install/ejer2py/share/ejer2py/hook/pythonpath.dsv'
+[1.984s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kakurrix/Documents/Robotica/parcial1_ws/install/ejer2py/share/ejer2py/hook/pythonpath.sh'
+[1.984s] Level 1:colcon.colcon_core.environment:checking '/home/kakurrix/Documents/Robotica/parcial1_ws/install/ejer2py/bin'
+[1.985s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ejer2py)
+[1.985s] INFO:colcon.colcon_core.shell:Creating package script '/home/kakurrix/Documents/Robotica/parcial1_ws/install/ejer2py/share/ejer2py/package.ps1'
+[1.985s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/kakurrix/Documents/Robotica/parcial1_ws/install/ejer2py/share/ejer2py/package.dsv'
+[1.986s] INFO:colcon.colcon_core.shell:Creating package script '/home/kakurrix/Documents/Robotica/parcial1_ws/install/ejer2py/share/ejer2py/package.sh'
+[1.986s] INFO:colcon.colcon_core.shell:Creating package script '/home/kakurrix/Documents/Robotica/parcial1_ws/install/ejer2py/share/ejer2py/package.bash'
+[1.987s] INFO:colcon.colcon_core.shell:Creating package script '/home/kakurrix/Documents/Robotica/parcial1_ws/install/ejer2py/share/ejer2py/package.zsh'
+[1.987s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/kakurrix/Documents/Robotica/parcial1_ws/install/ejer2py/share/colcon-core/packages/ejer2py)
+[1.987s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[1.987s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[1.988s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[1.988s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[1.993s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[1.993s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[1.993s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[2.004s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[2.005s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/kakurrix/Documents/Robotica/parcial1_ws/install/local_setup.ps1'
+[2.006s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/kakurrix/Documents/Robotica/parcial1_ws/install/_local_setup_util_ps1.py'
+[2.007s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/kakurrix/Documents/Robotica/parcial1_ws/install/setup.ps1'
+[2.009s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/kakurrix/Documents/Robotica/parcial1_ws/install/local_setup.sh'
+[2.009s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/kakurrix/Documents/Robotica/parcial1_ws/install/_local_setup_util_sh.py'
+[2.010s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/kakurrix/Documents/Robotica/parcial1_ws/install/setup.sh'
+[2.011s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/kakurrix/Documents/Robotica/parcial1_ws/install/local_setup.bash'
+[2.012s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/kakurrix/Documents/Robotica/parcial1_ws/install/setup.bash'
+[2.014s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/kakurrix/Documents/Robotica/parcial1_ws/install/local_setup.zsh'
+[2.014s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/kakurrix/Documents/Robotica/parcial1_ws/install/setup.zsh'

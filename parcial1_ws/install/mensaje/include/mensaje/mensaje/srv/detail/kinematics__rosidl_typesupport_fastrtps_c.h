@@ -1,0 +1,1 @@
+/home/kakurrix/Documents/Robotica/parcial1_ws/build/mensaje/rosidl_typesupport_fastrtps_c/mensaje/srv/detail/kinematics__rosidl_typesupport_fastrtps_c.h

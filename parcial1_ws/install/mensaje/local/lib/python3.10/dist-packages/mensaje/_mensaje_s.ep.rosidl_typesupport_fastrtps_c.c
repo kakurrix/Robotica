@@ -1,0 +1,1 @@
+/home/kakurrix/Documents/Robotica/parcial1_ws/build/mensaje/rosidl_generator_py/mensaje/_mensaje_s.ep.rosidl_typesupport_fastrtps_c.c

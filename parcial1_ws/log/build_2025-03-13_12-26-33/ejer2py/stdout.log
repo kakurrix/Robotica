@@ -1,0 +1,36 @@
+running egg_info
+writing ../../build/ejer2py/ejer2py.egg-info/PKG-INFO
+writing dependency_links to ../../build/ejer2py/ejer2py.egg-info/dependency_links.txt
+writing entry points to ../../build/ejer2py/ejer2py.egg-info/entry_points.txt
+writing requirements to ../../build/ejer2py/ejer2py.egg-info/requires.txt
+writing top-level names to ../../build/ejer2py/ejer2py.egg-info/top_level.txt
+reading manifest file '../../build/ejer2py/ejer2py.egg-info/SOURCES.txt'
+adding license file 'LICENSE'
+writing manifest file '../../build/ejer2py/ejer2py.egg-info/SOURCES.txt'
+running build
+running build_py
+copying ejer2py/pub2.py -> /home/kakurrix/Documents/Robotica/parcial1_ws/build/ejer2py/build/lib/ejer2py
+copying ejer2py/pub1.py -> /home/kakurrix/Documents/Robotica/parcial1_ws/build/ejer2py/build/lib/ejer2py
+copying ejer2py/pub3.py -> /home/kakurrix/Documents/Robotica/parcial1_ws/build/ejer2py/build/lib/ejer2py
+copying ejer2py/versub.py -> /home/kakurrix/Documents/Robotica/parcial1_ws/build/ejer2py/build/lib/ejer2py
+running install
+running install_lib
+copying /home/kakurrix/Documents/Robotica/parcial1_ws/build/ejer2py/build/lib/ejer2py/pub2.py -> /home/kakurrix/Documents/Robotica/parcial1_ws/install/ejer2py/lib/python3.10/site-packages/ejer2py
+copying /home/kakurrix/Documents/Robotica/parcial1_ws/build/ejer2py/build/lib/ejer2py/pub1.py -> /home/kakurrix/Documents/Robotica/parcial1_ws/install/ejer2py/lib/python3.10/site-packages/ejer2py
+copying /home/kakurrix/Documents/Robotica/parcial1_ws/build/ejer2py/build/lib/ejer2py/pub3.py -> /home/kakurrix/Documents/Robotica/parcial1_ws/install/ejer2py/lib/python3.10/site-packages/ejer2py
+copying /home/kakurrix/Documents/Robotica/parcial1_ws/build/ejer2py/build/lib/ejer2py/versub.py -> /home/kakurrix/Documents/Robotica/parcial1_ws/install/ejer2py/lib/python3.10/site-packages/ejer2py
+byte-compiling /home/kakurrix/Documents/Robotica/parcial1_ws/install/ejer2py/lib/python3.10/site-packages/ejer2py/pub2.py to pub2.cpython-310.pyc
+byte-compiling /home/kakurrix/Documents/Robotica/parcial1_ws/install/ejer2py/lib/python3.10/site-packages/ejer2py/pub1.py to pub1.cpython-310.pyc
+byte-compiling /home/kakurrix/Documents/Robotica/parcial1_ws/install/ejer2py/lib/python3.10/site-packages/ejer2py/pub3.py to pub3.cpython-310.pyc
+byte-compiling /home/kakurrix/Documents/Robotica/parcial1_ws/install/ejer2py/lib/python3.10/site-packages/ejer2py/versub.py to versub.cpython-310.pyc
+running install_data
+running install_egg_info
+removing '/home/kakurrix/Documents/Robotica/parcial1_ws/install/ejer2py/lib/python3.10/site-packages/ejer2py-0.0.0-py3.10.egg-info' (and everything under it)
+Copying ../../build/ejer2py/ejer2py.egg-info to /home/kakurrix/Documents/Robotica/parcial1_ws/install/ejer2py/lib/python3.10/site-packages/ejer2py-0.0.0-py3.10.egg-info
+running install_scripts
+Installing pub1 script to /home/kakurrix/Documents/Robotica/parcial1_ws/install/ejer2py/lib/ejer2py
+Installing pub2 script to /home/kakurrix/Documents/Robotica/parcial1_ws/install/ejer2py/lib/ejer2py
+Installing pub3 script to /home/kakurrix/Documents/Robotica/parcial1_ws/install/ejer2py/lib/ejer2py
+Installing pubsubprome script to /home/kakurrix/Documents/Robotica/parcial1_ws/install/ejer2py/lib/ejer2py
+Installing versub script to /home/kakurrix/Documents/Robotica/parcial1_ws/install/ejer2py/lib/ejer2py
+writing list of installed files to '/home/kakurrix/Documents/Robotica/parcial1_ws/build/ejer2py/install.log'

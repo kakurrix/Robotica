@@ -1,0 +1,28 @@
+[0.952s] Invoking command in '/home/kakurrix/Documents/Robotica/parcial1_ws/build/ejer2py': PYTHONPATH=/home/kakurrix/Documents/Robotica/parcial1_ws/build/ejer2py/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/kakurrix/Documents/Robotica/parcial1_ws/install/ejer2py/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/kakurrix/Documents/Robotica/parcial1_ws/build/ejer2py/build --no-deps symlink_data
+[1.178s] running develop
+[1.314s] running egg_info
+[1.314s] creating ejer2py.egg-info
+[1.314s] writing ejer2py.egg-info/PKG-INFO
+[1.314s] writing dependency_links to ejer2py.egg-info/dependency_links.txt
+[1.314s] writing entry points to ejer2py.egg-info/entry_points.txt
+[1.314s] writing requirements to ejer2py.egg-info/requires.txt
+[1.314s] writing top-level names to ejer2py.egg-info/top_level.txt
+[1.314s] writing manifest file 'ejer2py.egg-info/SOURCES.txt'
+[1.316s] reading manifest file 'ejer2py.egg-info/SOURCES.txt'
+[1.316s] writing manifest file 'ejer2py.egg-info/SOURCES.txt'
+[1.317s] running build_ext
+[1.317s] Creating /home/kakurrix/Documents/Robotica/parcial1_ws/install/ejer2py/lib/python3.10/site-packages/ejer2py.egg-link (link to .)
+[1.318s] Installing pub1 script to /home/kakurrix/Documents/Robotica/parcial1_ws/install/ejer2py/lib/ejer2py
+[1.318s] Installing pub2 script to /home/kakurrix/Documents/Robotica/parcial1_ws/install/ejer2py/lib/ejer2py
+[1.319s] Installing pub3 script to /home/kakurrix/Documents/Robotica/parcial1_ws/install/ejer2py/lib/ejer2py
+[1.319s] Installing pubsubprome script to /home/kakurrix/Documents/Robotica/parcial1_ws/install/ejer2py/lib/ejer2py
+[1.319s] Installing versub script to /home/kakurrix/Documents/Robotica/parcial1_ws/install/ejer2py/lib/ejer2py
+[1.319s] 
+[1.319s] Installed /home/kakurrix/Documents/Robotica/parcial1_ws/build/ejer2py
+[1.319s] running symlink_data
+[1.319s] creating /home/kakurrix/Documents/Robotica/parcial1_ws/install/ejer2py/share/ament_index
+[1.319s] creating /home/kakurrix/Documents/Robotica/parcial1_ws/install/ejer2py/share/ament_index/resource_index
+[1.319s] creating /home/kakurrix/Documents/Robotica/parcial1_ws/install/ejer2py/share/ament_index/resource_index/packages
+[1.320s] symbolically linking /home/kakurrix/Documents/Robotica/parcial1_ws/build/ejer2py/resource/ejer2py -> /home/kakurrix/Documents/Robotica/parcial1_ws/install/ejer2py/share/ament_index/resource_index/packages
+[1.320s] symbolically linking /home/kakurrix/Documents/Robotica/parcial1_ws/build/ejer2py/package.xml -> /home/kakurrix/Documents/Robotica/parcial1_ws/install/ejer2py/share/ejer2py
+[1.352s] Invoked command in '/home/kakurrix/Documents/Robotica/parcial1_ws/build/ejer2py' returned '0': PYTHONPATH=/home/kakurrix/Documents/Robotica/parcial1_ws/build/ejer2py/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/kakurrix/Documents/Robotica/parcial1_ws/install/ejer2py/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/kakurrix/Documents/Robotica/parcial1_ws/build/ejer2py/build --no-deps symlink_data

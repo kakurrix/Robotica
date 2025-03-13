@@ -1,0 +1,4 @@
+[console_scripts]
+pub_bin = publicador.pub_bin:main
+sus_bin = publicador.sus_bin:main
+

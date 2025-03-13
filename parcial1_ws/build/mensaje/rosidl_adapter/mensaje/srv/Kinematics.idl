@@ -1,0 +1,22 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from mensaje/srv/Kinematics.srv
+// generated code does not contain a copyright notice
+
+#include "geometry_msgs/msg/Pose.idl"
+
+module mensaje {
+  module srv {
+    struct Kinematics_Request {
+      double theta1;
+
+      double theta2;
+
+      double theta3;
+
+      double theta4;
+    };
+    struct Kinematics_Response {
+      geometry_msgs::msg::Pose pose;
+    };
+  };
+};

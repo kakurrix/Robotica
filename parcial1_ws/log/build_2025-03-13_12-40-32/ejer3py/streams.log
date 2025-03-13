@@ -1,0 +1,31 @@
+[1.214s] Invoking command in '/home/kakurrix/Documents/Robotica/parcial1_ws/src/ejer3py': PYTHONPATH=/home/kakurrix/Documents/Robotica/parcial1_ws/build/ejer3py/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/kakurrix/Documents/Robotica/parcial1_ws/install/ejer3py/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/ejer3py build --build-base /home/kakurrix/Documents/Robotica/parcial1_ws/build/ejer3py/build install --record /home/kakurrix/Documents/Robotica/parcial1_ws/build/ejer3py/install.log --single-version-externally-managed install_data
+[1.477s] running egg_info
+[1.478s] creating ../../build/ejer3py/ejer3py.egg-info
+[1.478s] writing ../../build/ejer3py/ejer3py.egg-info/PKG-INFO
+[1.478s] writing dependency_links to ../../build/ejer3py/ejer3py.egg-info/dependency_links.txt
+[1.479s] writing entry points to ../../build/ejer3py/ejer3py.egg-info/entry_points.txt
+[1.479s] writing requirements to ../../build/ejer3py/ejer3py.egg-info/requires.txt
+[1.479s] writing top-level names to ../../build/ejer3py/ejer3py.egg-info/top_level.txt
+[1.479s] writing manifest file '../../build/ejer3py/ejer3py.egg-info/SOURCES.txt'
+[1.481s] reading manifest file '../../build/ejer3py/ejer3py.egg-info/SOURCES.txt'
+[1.482s] adding license file 'LICENSE'
+[1.483s] writing manifest file '../../build/ejer3py/ejer3py.egg-info/SOURCES.txt'
+[1.483s] running build
+[1.483s] running build_py
+[1.483s] creating /home/kakurrix/Documents/Robotica/parcial1_ws/build/ejer3py/build
+[1.483s] creating /home/kakurrix/Documents/Robotica/parcial1_ws/build/ejer3py/build/lib
+[1.483s] creating /home/kakurrix/Documents/Robotica/parcial1_ws/build/ejer3py/build/lib/ejer3py
+[1.483s] copying ejer3py/cinematicaserv.py -> /home/kakurrix/Documents/Robotica/parcial1_ws/build/ejer3py/build/lib/ejer3py
+[1.484s] copying ejer3py/__init__.py -> /home/kakurrix/Documents/Robotica/parcial1_ws/build/ejer3py/build/lib/ejer3py
+[1.484s] copying ejer3py/cliente.py -> /home/kakurrix/Documents/Robotica/parcial1_ws/build/ejer3py/build/lib/ejer3py
+[1.484s] running install
+[1.484s] running install_lib
+[1.486s] running install_data
+[1.486s] running install_egg_info
+[1.490s] removing '/home/kakurrix/Documents/Robotica/parcial1_ws/install/ejer3py/lib/python3.10/site-packages/ejer3py-0.0.0-py3.10.egg-info' (and everything under it)
+[1.491s] Copying ../../build/ejer3py/ejer3py.egg-info to /home/kakurrix/Documents/Robotica/parcial1_ws/install/ejer3py/lib/python3.10/site-packages/ejer3py-0.0.0-py3.10.egg-info
+[1.492s] running install_scripts
+[1.524s] Installing cinematicaserv script to /home/kakurrix/Documents/Robotica/parcial1_ws/install/ejer3py/lib/ejer3py
+[1.524s] Installing cliente script to /home/kakurrix/Documents/Robotica/parcial1_ws/install/ejer3py/lib/ejer3py
+[1.525s] writing list of installed files to '/home/kakurrix/Documents/Robotica/parcial1_ws/build/ejer3py/install.log'
+[1.568s] Invoked command in '/home/kakurrix/Documents/Robotica/parcial1_ws/src/ejer3py' returned '0': PYTHONPATH=/home/kakurrix/Documents/Robotica/parcial1_ws/build/ejer3py/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/kakurrix/Documents/Robotica/parcial1_ws/install/ejer3py/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/ejer3py build --build-base /home/kakurrix/Documents/Robotica/parcial1_ws/build/ejer3py/build install --record /home/kakurrix/Documents/Robotica/parcial1_ws/build/ejer3py/install.log --single-version-externally-managed install_data
